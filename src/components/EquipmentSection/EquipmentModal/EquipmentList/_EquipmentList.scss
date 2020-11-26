@@ -1,0 +1,38 @@
+.EquipmentList {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 200px;
+  border-right: 1px solid $text-gold;
+
+  @media (max-width: 768px) {
+    height: 200px;
+    width: 100%;
+    border-bottom: 1px solid $text-gold;
+    border-right: none;
+  }
+
+  input[type="text"] {
+    color: $text-white;
+    background-color: black;
+    height: 2rem;
+    border: 1px solid $text-white;
+    box-sizing: border-box;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    min-width: 180px;
+    height: 100%;
+    background-color: black;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    overflow-y: scroll;
+
+    li {
+      padding-left: 0.5rem;
+      cursor: pointer;
+    }
+  }
+}

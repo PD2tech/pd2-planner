@@ -1,0 +1,409 @@
+{
+  "character_class": "Paladin",
+  "character_sprite": "https://pd2-tools-planner.s3.amazonaws.com/class_sprites/Paladin.gif",
+  "stats": {
+    "base_stats": {
+      "life": {
+        "base_amount": 50,
+        "per_level": 2.5,
+        "per_vitality": 3
+      },
+      "mana": {
+        "base_amount": 15,
+        "per_level": 1.5,
+        "per_energy": 1.5
+      },
+      "stamina": {
+        "base_amount": 184,
+        "per_level": 1,
+        "per_vitality": 1
+      },
+      "character_level": 1,
+      "strength": 20,
+      "dexterity": 25,
+      "vitality": 20,
+      "energy": 15,
+      "attack_rating": 100,
+      "defense": 6
+    },
+    "level_mods": {
+      "increased_level": 0,
+      "skill_points": 0,
+      "attribute_points": 0,
+      "strength_allocated": 0,
+      "dexterity_allocated": 0,
+      "vitality_allocated": 0,
+      "energy_allocated": 0
+    },
+    "difficulty_quests": {
+      "difficulty": 1,
+      "skill_quests": {
+        "norm": {
+          "den": 0,
+          "rada": 0,
+          "izzy": 0
+        },
+        "nm": {
+          "den": 0,
+          "rada": 0,
+          "izzy": 0
+        },
+        "hell": {
+          "den": 0,
+          "rada": 0,
+          "izzy": 0
+        }
+      },
+      "stat_quests": {
+        "norm": {
+          "anya": 0,
+          "bird": 0,
+          "esen": 0
+        },
+        "nm": {
+          "anya": 0,
+          "bird": 0,
+          "esen": 0
+        },
+        "hell": {
+          "anya": 0,
+          "bird": 0,
+          "esen": 0
+        }
+      }
+    }
+  },
+  "equipment": {
+    "equipped": [null, null, null, null, null, null, null, null, null, null],
+    "selected_slot": null
+  },
+  "skills": {
+    "character_class": "Padalin",
+    "skill_points_allocated": 0,
+    "active_skills": {
+      "skill_1": null,
+      "skill_2": null
+    },
+    "known_skills": [],
+    "skill_trees": [
+      {
+        "tree_id": 3,
+        "tree_name": "Combat Skills",
+        "skill_points_allocated": 0,
+        "skills": [
+          {
+            "skill_name": "Sacrifice",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/paladin/0000.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 1,
+            "col": 2
+          },
+          {
+            "skill_name": "Holy Bolt",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/paladin/0010.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 1,
+            "col": 2
+          },
+          {
+            "skill_name": "Smite",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/paladin/0002.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 1,
+            "col": 3
+          },
+          {
+            "skill_name": "Zeal",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/paladin/0020.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 2,
+            "col": 1     
+          },
+          {
+            "skill_name": "Holy Light",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/paladin/0062.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 3,
+            "col": 2
+          },
+          {
+            "skill_name": "Charge",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/paladin/0022.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 3,
+            "col": 3
+          },
+          {
+            "skill_name": "Vengeance",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/paladin/0040.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 4,
+            "col": 1
+          },
+          {
+            "skill_name": "Blessed Hammer",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/paladin/0032.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 4,
+            "col": 2
+          },
+          {
+            "skill_name": "Conversion",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/paladin/0030.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 4,
+            "col": 3
+          },
+          {
+            "skill_name": "Joust",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/paladin/0064.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 5,
+            "col": 1
+          },
+          {
+            "skill_name": "Holy Nova",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/paladin/0060.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 5,
+            "col": 2
+          },
+          {
+            "skill_name": "Blessed Shield",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/paladin/0042.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 5,
+            "col": 3
+          },
+          {
+            "skill_name": "Fist of the Heavens",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/paladin/0050.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 6,
+            "col": 2
+          }
+        ]
+      },
+      {
+        "tree_id": 1,
+        "tree_name": "Defensive Auras",
+        "skill_points_allocated": 0,
+        "skills": [
+          {
+            "skill_name": "Prayer",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/paladin/0006.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 1,
+            "col": 1
+          },
+          {
+            "skill_name": "Resist Fire",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/paladin/0008.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 1,
+            "col": 3
+          },
+          {
+            "skill_name": "Defiance",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/paladin/0016.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 2,
+            "col": 2
+          },
+          {
+            "skill_name": "Resist Cold",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/paladin/0018.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 2,
+            "col": 3
+          },
+          {
+            "skill_name": "Cleansing",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/paladin/0038.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 3,
+            "col": 1
+          },
+          {
+            "skill_name": "Resist Lightning",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/paladin/0028.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 3,
+            "col": 3
+          },
+          {
+            "skill_name": "Vigor",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/paladin/0026.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 4,
+            "col": 2
+          },
+          {
+            "skill_name": "Meditation",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/paladin/0048.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 5,
+            "col": 1
+          },
+          {
+            "skill_name": "Redemption",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/paladin/0054.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 6,
+            "col": 2
+          },
+          {
+            "skill_name": "Salvation",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/paladin/0058.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 6,
+            "col": 3
+          }
+        ]
+      },
+      {
+        "tree_id": 2,
+        "tree_name": "Offensive Auras",
+        "skill_points_allocated": 0,
+        "skills": [
+          {
+            "skill_name": "Might",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/paladin/0004.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 1,
+            "col": 1
+          },
+          {
+            "skill_name": "Holy Fire",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/paladin/0012.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 2,
+            "col": 2
+          },
+          {
+            "skill_name": "Thorns",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/paladin/0014.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 2,
+            "col": 3
+          },
+          {
+            "skill_name": "Blessed Aim",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/paladin/0024.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 3,
+            "col": 1
+          },
+          {
+            "skill_name": "Concentration",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/paladin/0034.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 4,
+            "col": 1
+          },
+          {
+            "skill_name": "Holy Freeze",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/paladin/0036.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 4,
+            "col": 2
+          },
+          {
+            "skill_name": "Holy Shock",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/paladin/0044.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 5,
+            "col": 2
+          },
+          {
+            "skill_name": "Sanctuary",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/paladin/0046.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 5,
+            "col": 3
+          },
+          {
+            "skill_name": "Fanaticism",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/paladin/0052.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 6,
+            "col": 1
+          },
+          {
+            "skill_name": "Conviction",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/paladin/0056.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 6,
+            "col": 3
+          }
+        ]
+      }
+    ]
+  }
+}

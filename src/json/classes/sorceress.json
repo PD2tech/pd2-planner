@@ -1,0 +1,409 @@
+{
+  "character_class": "Sorceress",
+  "character_sprite": "https://pd2-tools-planner.s3.amazonaws.com/class_sprites/Sorceress.gif",
+  "stats": {
+    "base_stats": {
+      "life": {
+        "base_amount": 50,
+        "per_level": 2.5,
+        "per_vitality": 3
+      },
+      "mana": {
+        "base_amount": 15,
+        "per_level": 1.5,
+        "per_energy": 1.5
+      },
+      "stamina": {
+        "base_amount": 184,
+        "per_level": 1,
+        "per_vitality": 1
+      },
+      "character_level": 1,
+      "strength": 20,
+      "dexterity": 25,
+      "vitality": 20,
+      "energy": 15,
+      "attack_rating": 100,
+      "defense": 6
+    },
+    "level_mods": {
+      "increased_level": 0,
+      "skill_points": 0,
+      "attribute_points": 0,
+      "strength_allocated": 0,
+      "dexterity_allocated": 0,
+      "vitality_allocated": 0,
+      "energy_allocated": 0
+    },
+    "difficulty_quests": {
+      "difficulty": 1,
+      "skill_quests": {
+        "norm": {
+          "den": 0,
+          "rada": 0,
+          "izzy": 0
+        },
+        "nm": {
+          "den": 0,
+          "rada": 0,
+          "izzy": 0
+        },
+        "hell": {
+          "den": 0,
+          "rada": 0,
+          "izzy": 0
+        }
+      },
+      "stat_quests": {
+        "norm": {
+          "anya": 0,
+          "bird": 0,
+          "esen": 0
+        },
+        "nm": {
+          "anya": 0,
+          "bird": 0,
+          "esen": 0
+        },
+        "hell": {
+          "anya": 0,
+          "bird": 0,
+          "esen": 0
+        }
+      }
+    }
+  },
+  "equipment": {
+    "equipped": [null, null, null, null, null, null, null, null, null, null],
+    "selected_slot": null
+  },
+  "skills": {
+    "character_class": "Sorceress",
+    "skill_points_allocated": 0,
+    "active_skills": {
+      "skill_1": null,
+      "skill_2": null
+    },
+    "known_skills": [],
+    "skill_trees": [
+      {
+        "tree_id": 3,
+        "tree_name": "Fire Spells",
+        "skill_points_allocated": 0,
+        "skills": [
+          {
+            "skill_name": "Inferno",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/sorceress/0010.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 1,
+            "col": 1
+          },
+          {
+            "skill_name": "Firebolt",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/sorceress/0000.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 1,
+            "col": 2
+          },
+          {
+            "skill_name": "Warmth",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/sorceress/0002.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 1,
+            "col": 3
+          },
+          {
+            "skill_name": "Blaze",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/sorceress/0020.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 2,
+            "col": 1     
+          },
+          {
+            "skill_name": "Fire Wall",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/sorceress/0030.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 3,
+            "col": 1
+          },
+          {
+            "skill_name": "Fireball",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/sorceress/0022.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 3,
+            "col": 2
+          },
+          {
+            "skill_name": "Lesser Hydra",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/sorceress/0066.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 3,
+            "col": 3
+          },
+          {
+            "skill_name": "Enchant",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/sorceress/0032.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 4,
+            "col": 3
+          },
+          {
+            "skill_name": "Meteor",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/sorceress/0040.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 5,
+            "col": 1
+          },
+          {
+            "skill_name": "Fire Shrine Thingy",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/sorceress/0064.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 5,
+            "col": 2
+          },
+          {
+            "skill_name": "Fire Mastery",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/sorceress/0050.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 6,
+            "col": 2
+          },
+          {
+            "skill_name": "Hydra",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/sorceress/0052.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 6,
+            "col": 3
+          }
+        ]
+      },
+      {
+        "tree_id": 2,
+        "tree_name": "Lightning Spells",
+        "skill_points_allocated": 0,
+        "skills": [
+          {
+            "skill_name": "Static Field",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/sorceress/0012.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 1,
+            "col": 1
+          },
+          {
+            "skill_name": "Charged Bolt",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/sorceress/0004.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 1,
+            "col": 2
+          },
+          {
+            "skill_name": "Telekinesis",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/sorceress/0014.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 1,
+            "col": 3
+          },
+          {
+            "skill_name": "Nova",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/sorceress/0024.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 3,
+            "col": 1
+          },
+          {
+            "skill_name": "Lightning",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/sorceress/0026.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 3,
+            "col": 2
+          },
+          {
+            "skill_name": "Teleport",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/sorceress/0036.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 4,
+            "col": 3
+          },
+          {
+            "skill_name": "Thunderstorm",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/sorceress/0042.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 5,
+            "col": 1
+          },
+          {
+            "skill_name": "Chain Lightning",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/sorceress/0034.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 5,
+            "col": 2
+          },
+          {
+            "skill_name": "Lightning Mastery",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/sorceress/0054.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 6,
+            "col": 2
+          },
+          {
+            "skill_name": "Energy Shield",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/sorceress/0044.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 6,
+            "col": 3
+          }
+        ]
+      },
+      {
+        "tree_id": 1,
+        "tree_name": "Cold Spells",
+        "skill_points_allocated": 0,
+        "skills": [
+          {
+            "skill_name": "Ice Bolt",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/sorceress/0006.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 1,
+            "col": 2
+          },
+          {
+            "skill_name": "Frost Enchant?",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/sorceress/0062.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 1,
+            "col": 3
+          },
+          {
+            "skill_name": "Frost Nova",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/sorceress/0016.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 2,
+            "col": 1
+          },
+          {
+            "skill_name": "Ice Blast",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/sorceress/0018.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 2,
+            "col": 2
+          },
+          {
+            "skill_name": "Shiver Armor",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/sorceress/0028.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 3,
+            "col": 3
+          },
+          {
+            "skill_name": "Glacial Spike",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/sorceress/0038.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 4,
+            "col": 2
+          },
+          {
+            "skill_name": "Blizzard",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/sorceress/0046.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 5,
+            "col": 1
+          },
+          {
+            "skill_name": "Ice Shotgun Thing",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/sorceress/0060.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 5,
+            "col": 2
+          },
+          {
+            "skill_name": "Chilling Armor",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/sorceress/0048.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 5,
+            "col": 3
+          },
+          {
+            "skill_name": "Frozen Orb",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/sorceress/0056.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 6,
+            "col": 1
+          },
+          {
+            "skill_name": "Cold Mastery",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/sorceress/0058.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 6,
+            "col": 2
+          }
+        ]
+      }
+    ]
+  }
+}

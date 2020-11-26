@@ -1,0 +1,400 @@
+{
+  "character_class": "Necromancer",
+  "character_sprite": "https://pd2-tools-planner.s3.amazonaws.com/class_sprites/Necromancer.gif",
+  "stats": {
+    "base_stats": {
+      "life": {
+        "base_amount": 50,
+        "per_level": 2.5,
+        "per_vitality": 3
+      },
+      "mana": {
+        "base_amount": 15,
+        "per_level": 1.5,
+        "per_energy": 1.5
+      },
+      "stamina": {
+        "base_amount": 184,
+        "per_level": 1,
+        "per_vitality": 1
+      },
+      "character_level": 1,
+      "strength": 20,
+      "dexterity": 25,
+      "vitality": 20,
+      "energy": 15,
+      "attack_rating": 100,
+      "defense": 6
+    },
+    "level_mods": {
+      "increased_level": 0,
+      "skill_points": 0,
+      "attribute_points": 0,
+      "strength_allocated": 0,
+      "dexterity_allocated": 0,
+      "vitality_allocated": 0,
+      "energy_allocated": 0
+    },
+    "difficulty_quests": {
+      "difficulty": 1,
+      "skill_quests": {
+        "norm": {
+          "den": 0,
+          "rada": 0,
+          "izzy": 0
+        },
+        "nm": {
+          "den": 0,
+          "rada": 0,
+          "izzy": 0
+        },
+        "hell": {
+          "den": 0,
+          "rada": 0,
+          "izzy": 0
+        }
+      },
+      "stat_quests": {
+        "norm": {
+          "anya": 0,
+          "bird": 0,
+          "esen": 0
+        },
+        "nm": {
+          "anya": 0,
+          "bird": 0,
+          "esen": 0
+        },
+        "hell": {
+          "anya": 0,
+          "bird": 0,
+          "esen": 0
+        }
+      }
+    }
+  },
+  "equipment": {
+    "equipped": [null, null, null, null, null, null, null, null, null, null],
+    "selected_slot": null
+  },
+  "skills": {
+    "character_class": "Necromancer",
+    "skill_points_allocated": 0,
+      "active_skills": {
+        "skill_1": null,
+        "skill_2": null
+      },
+      "known_skills": [],
+    "skill_trees": [
+      {
+        "tree_id": 1,
+        "tree_name": "Summoning Spells",
+        "skill_points_allocated": 0,
+        "skills": [
+          {
+            "skill_name": "Sketelon Mastery",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/necromancer/0006.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 1,
+            "col": 1
+          },
+          {
+            "skill_name": "Summon Skeleton",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/necromancer/0008.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 1,
+            "col": 3
+          },
+          {
+            "skill_name": "Clay Golem",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/necromancer/0018.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 2,
+            "col": 2
+          },
+          {
+            "skill_name": "Summon Resist",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/necromancer/0046.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 3,
+            "col": 1     
+          },
+          {
+            "skill_name": "Skeleton Mage",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/necromancer/0028.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 3,
+            "col": 3
+          },
+          {
+            "skill_name": "Golem Mastery",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/necromancer/0060.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 4,
+            "col": 1
+          },
+          {
+            "skill_name": "Blood Golem",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/necromancer/0038.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 4,
+            "col": 2
+          },
+          {
+            "skill_name": "Iron Golem",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/necromancer/0048.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 5,
+            "col": 2
+          },
+          {
+            "skill_name": "Fire Golem",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/necromancer/0056.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 6,
+            "col": 2
+          },
+          {
+            "skill_name": "Revive",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/necromancer/0058.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 6,
+            "col": 3
+          }
+        ]
+      },
+      {
+        "tree_id": 2,
+        "tree_name": "Poison and Bone",
+        "skill_points_allocated": 0,
+        "skills": [
+          {
+            "skill_name": "Poison Dagger",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/necromancer/0014.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 1,
+            "col": 1
+          },
+          {
+            "skill_name": "Teeth",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/necromancer/0002.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 1,
+            "col": 2
+          },
+          {
+            "skill_name": "Corpse Explosion",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/necromancer/0016.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 2,
+            "col": 1
+          },
+          {
+            "skill_name": "Bone Armor",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/necromancer/0004.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 2,
+            "col": 3
+          },
+          {
+            "skill_name": "Desecrate",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/necromancer/0034.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 3,
+            "col": 1
+          },
+          {
+            "skill_name": "Bone Wall",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/necromancer/0024.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 3,
+            "col": 3
+          },
+          {
+            "skill_name": "Bone Spear",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/necromancer/0036.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 4,
+            "col": 2
+          },
+          {
+            "skill_name": "Bone Prison",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/necromancer/0044.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 5,
+            "col": 3
+          },
+          {
+            "skill_name": "Poison Nova",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/necromancer/0052.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 6,
+            "col": 1
+          },
+          {
+            "skill_name": "Bone Spirit",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/necromancer/0054.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 6,
+            "col": 2
+          }
+        ]
+      },
+      {
+        "tree_id": 3,
+        "tree_name": "Curses",
+        "skill_points_allocated": 0,
+        "skills": [
+          {
+            "skill_name": "Amplify Damage",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/necromancer/0002.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 1,
+            "col": 2
+          },
+          {
+            "skill_name": "Curse Mastery",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/necromancer/0062.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 1,
+            "col": 3
+          },
+          {
+            "skill_name": "Consume Curses",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/necromancer/0064.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 2,
+            "col": 1
+          },
+          {
+            "skill_name": "Dim Vision",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/necromancer/0010.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 2,
+            "col": 3
+          },
+          {
+            "skill_name": "Iron Maiden",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/necromancer/0020.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 3,
+            "col": 1
+          },
+          {
+            "skill_name": "Life Tap",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/necromancer/0032.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 3,
+            "col": 2
+          },
+          {
+            "skill_name": "Terror",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/necromancer/0022.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 3,
+            "col": 3
+          },
+          {
+            "skill_name": "Weaken",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/necromancer/0012.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 4,
+            "col": 2
+          },
+          {
+            "skill_name": "Confuse",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/necromancer/0030.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 4,
+            "col": 3
+          },
+          {
+            "skill_name": "Decrepify",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/necromancer/0042.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 5,
+            "col": 1
+          },
+          {
+            "skill_name": "Attract",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/necromancer/0040.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 5,
+            "col": 3
+          },
+          {
+            "skill_name": "Lower Resist",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/necromancer/0050.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 6,
+            "col": 2
+          }
+        ]
+      }
+    ]
+  }
+}

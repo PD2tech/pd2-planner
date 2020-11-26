@@ -1,0 +1,391 @@
+{
+  "character_class": "Druid",
+  "character_sprite": "https://pd2-tools-planner.s3.amazonaws.com/class_sprites/Druid.gif",
+  "stats": {
+    "base_stats": {
+      "life": {
+        "base_amount": 50,
+        "per_level": 2.5,
+        "per_vitality": 3
+      },
+      "mana": {
+        "base_amount": 15,
+        "per_level": 1.5,
+        "per_energy": 1.5
+      },
+      "stamina": {
+        "base_amount": 184,
+        "per_level": 1,
+        "per_vitality": 1
+      },
+      "character_level": 1,
+      "strength": 20,
+      "dexterity": 25,
+      "vitality": 20,
+      "energy": 15,
+      "attack_rating": 100,
+      "defense": 6
+    },
+    "level_mods": {
+      "increased_level": 0,
+      "skill_points": 0,
+      "attribute_points": 0,
+      "strength_allocated": 0,
+      "dexterity_allocated": 0,
+      "vitality_allocated": 0,
+      "energy_allocated": 0
+    },
+    "difficulty_quests": {
+      "difficulty": 1,
+      "skill_quests": {
+        "norm": {
+          "den": 0,
+          "rada": 0,
+          "izzy": 0
+        },
+        "nm": {
+          "den": 0,
+          "rada": 0,
+          "izzy": 0
+        },
+        "hell": {
+          "den": 0,
+          "rada": 0,
+          "izzy": 0
+        }
+      },
+      "stat_quests": {
+        "norm": {
+          "anya": 0,
+          "bird": 0,
+          "esen": 0
+        },
+        "nm": {
+          "anya": 0,
+          "bird": 0,
+          "esen": 0
+        },
+        "hell": {
+          "anya": 0,
+          "bird": 0,
+          "esen": 0
+        }
+      }
+    }
+  },
+  "equipment": {
+    "equipped": [null, null, null, null, null, null, null, null, null, null],
+    "selected_slot": null
+  },
+  "skills": {
+    "character_class": "Druid",
+    "skill_points_allocated": 0,
+      "active_skills": {
+        "skill_1": null,
+        "skill_2": null
+      },
+      "known_skills": [],
+    "skill_trees": [
+      {
+        "tree_id": 1,
+        "tree_name": "Elemental",
+        "skill_points_allocated": 0,
+        "skills": [
+          {
+            "skill_name": "Firestorm",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/druid/0032.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 1,
+            "col": 1
+          },
+          {
+            "skill_name": "Arctic Blast",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/druid/0036.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 1,
+            "col": 3
+          },
+          {
+            "skill_name": "Moulten Boulder",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/druid/0034.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 2,
+            "col": 1
+          },
+          {
+            "skill_name": "Cyclone Armor",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/druid/0040.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 2,
+            "col": 3     
+          },
+          {
+            "skill_name": "Fissure",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/druid/0038.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 3,
+            "col": 1
+          },
+          {
+            "skill_name": "Twister",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/druid/0042.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 3,
+            "col": 2
+          },
+          {
+            "skill_name": "Gust",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/druid/0060.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 4,
+            "col": 1
+          },
+          {
+            "skill_name": "Volcano",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/druid/0044.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 5,
+            "col": 1
+          },
+          {
+            "skill_name": "Tornado",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/druid/0046.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 5,
+            "col": 2
+          },
+          {
+            "skill_name": "Armageddon",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/druid/0050.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 6,
+            "col": 1
+          },
+          {
+            "skill_name": "Hurricane",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/druid/0048.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 6,
+            "col": 2
+          }
+        ]
+      },
+      {
+        "tree_id": 2,
+        "tree_name": "Shape Shifting",
+        "skill_points_allocated": 0,
+        "skills": [
+          {
+            "skill_name": "Werewolf",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/druid/0020.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 1,
+            "col": 1
+          },
+          {
+            "skill_name": "Lycanthropy",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/druid/0052.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 1,
+            "col": 2
+          },
+          {
+            "skill_name": "Werebear",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/druid/0022.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 1,
+            "col": 3
+          },
+          {
+            "skill_name": "Feral Rage",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/druid/0054.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 2,
+            "col": 1
+          },
+          {
+            "skill_name": "Maul",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/druid/0056.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 2,
+            "col": 1
+          },
+          {
+            "skill_name": "Hunger",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/druid/0058.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 3,
+            "col": 2
+          },
+          {
+            "skill_name": "Rabies",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/druid/0024.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 4,
+            "col": 1
+          },
+          {
+            "skill_name": "Shockwave",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/druid/0028.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 4,
+            "col": 3
+          },
+          {
+            "skill_name": "Fire Claws",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/druid/0026.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 5,
+            "col": 2
+          },
+          {
+            "skill_name": "Fury",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/druid/0030.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 6,
+            "col": 1
+          }
+        ]
+      },
+      {
+        "tree_id": 3,
+        "tree_name": "Summoning",
+        "skill_points_allocated": 0,
+        "skills": [
+          {
+            "skill_name": "Raven",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/druid/0000.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 1,
+            "col": 2
+          },
+          {
+            "skill_name": "Poison Creeper",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/druid/0002.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 1,
+            "col": 3
+          },
+          {
+            "skill_name": "Heart of Wolverine",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/druid/0010.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 2,
+            "col": 1
+          },
+          {
+            "skill_name": "Summon Spirit Wolf",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/druid/0006.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 3,
+            "col": 2
+          },
+          {
+            "skill_name": "Carrion Vine",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/druid/0008.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 3,
+            "col": 3
+          },
+          {
+            "skill_name": "Spirit of Barbs",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/druid/0004.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 4,
+            "col": 1
+          },
+          {
+            "skill_name": "Summon Dire Wolf",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/druid/0012.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 5,
+            "col": 2
+          },
+          {
+            "skill_name": "Solar Creeper",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/druid/0014.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 5,
+            "col": 3
+          },
+          {
+            "skill_name": "Oak Sage",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/druid/0016.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 6,
+            "col": 1
+          },
+          {
+            "skill_name": "Summon Grizzly",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/druid/0018.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 6,
+            "col": 2
+          }
+        ]
+      }
+    ]
+  }
+}

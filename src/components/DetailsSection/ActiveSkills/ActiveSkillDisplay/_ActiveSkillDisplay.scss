@@ -1,0 +1,14 @@
+.ActiveSkillDisplay-container {
+  h4 {
+    color: $text-white;
+  }
+  .ActiveSkillDisplay-content {
+    border: 1px solid $text-gold;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    min-width: 160px;
+    min-height: 160px;
+    color: $text-white;
+  }
+}

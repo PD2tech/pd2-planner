@@ -1,0 +1,380 @@
+{
+  "character_class": "Amazon",
+  "character_sprite": "https://pd2-tools-planner.s3.amazonaws.com/class_sprites/Amazon.gif",
+  "stats": {
+    "base_stats": {
+      "life": {
+        "base_amount": 50,
+        "per_level": 2.5,
+        "per_vitality": 3
+      },
+      "mana": {
+        "base_amount": 15,
+        "per_level": 1.5,
+        "per_energy": 1.5
+      },
+      "stamina": {
+        "base_amount": 184,
+        "per_level": 1,
+        "per_vitality": 1
+      },
+      "character_level": 1,
+      "strength": 20,
+      "dexterity": 25,
+      "vitality": 20,
+      "energy": 15,
+      "attack_rating": 100,
+      "defense": 6
+    },
+    "level_mods": {
+      "increased_level": 0,
+      "skill_points": 0,
+      "attribute_points": 0,
+      "strength_allocated": 0,
+      "dexterity_allocated": 0,
+      "vitality_allocated": 0,
+      "energy_allocated": 0
+    },
+    "difficulty_quests": {
+      "difficulty": 1,
+      "skill_quests": {
+        "norm": {
+          "den": 0,
+          "rada": 0,
+          "izzy": 0
+        },
+        "nm": {
+          "den": 0,
+          "rada": 0,
+          "izzy": 0
+        },
+        "hell": {
+          "den": 0,
+          "rada": 0,
+          "izzy": 0
+        }
+      },
+      "stat_quests": {
+        "norm": {
+          "anya": 0,
+          "bird": 0,
+          "esen": 0
+        },
+        "nm": {
+          "anya": 0,
+          "bird": 0,
+          "esen": 0
+        },
+        "hell": {
+          "anya": 0,
+          "bird": 0,
+          "esen": 0
+        }
+      }
+    }
+  },
+  "equipment": {
+    "equipped": [null, null, null, null, null, null, null, null, null, null],
+    "selected_slot": null
+  },
+  "skills": {
+    "character_class": "Amazon",
+    "skill_points_allocated": 0,
+    "active_skills": {
+      "skill_1": null,
+      "skill_2": null
+    },
+    "known_skills": [],
+    "skill_trees": [
+      {
+        "tree_id": 1,
+        "tree_name": "Javelin and Spear",
+        "skill_points_allocated": 0,
+        "skills": [
+          {
+            "skill_name": "Jab",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/amazon/0008.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {
+              "attack_rating": [40,50,60,70,80,90,100,110,120,130,140,150,160,170,180,190,200,210,220,230,240,250,260,270,280,290,300,310,320,330,340,350,360,370,380,390,400,410,420,430,440,450,460,470,480,490,500,510,520,530,540,550,560,570,580,590,600,610,620,630],
+              "damage": {
+                "type": "physical",
+                "min": [30,36,42,48,54,60,66,72,78,84,90,96,102,108,114,120,126,132,138,144,150,156,162,168,174,180,186,192,198,204,210,216,222,228,234,240,246,252,258,264,270,276,282,288,294,300,306,312,318,324,330,336,342,348,354,360,366,372,378,384]
+              },
+              "mana_cost": [2,2.2,2.5,2.7,3,3.2,3.5,3.7,4,4.2,4.5,4.7,5,5.2,5.5,5.7,6,6.2,6.5,6.7,7,7.2,7.5,7.7,8,8.2,8.5,8.7,9,9.2,9.5,9.7,10,10.2,10.5,10.7,11,11.2,11.5,11.7,12,12.2,12.5,12.7,13,13.2,13.5,13.7,14,14.2,14.5,14.7,15,15.2,15.5,15.7,16,16.2,16.5,16.7]
+            },
+            "row": 1,
+            "col": 1
+          },
+          {
+            "skill_name": "Poison Javelin",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/amazon/0018.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 1,
+            "col": 3
+          },
+          {
+            "skill_name": "Impale",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/amazon/0026.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 2,
+            "col": 1
+          },
+          {
+            "skill_name": "Power Strike",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/amazon/0016.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 2,
+            "col": 2     
+          },
+          {
+            "skill_name": "Lightning Bolt",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/amazon/0028.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 3,
+            "col": 3
+          },
+          {
+            "skill_name": "Fend",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/amazon/0048.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 4,
+            "col": 1
+          },
+          {
+            "skill_name": "Charged Strike",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/amazon/0036.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 4,
+            "col": 2
+          },
+          {
+            "skill_name": "Plague Javelin",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/amazon/0038.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 4,
+            "col": 3
+          },
+          {
+            "skill_name": "Lightning Strike",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/amazon/0056.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 6,
+            "col": 2
+          },
+          {
+            "skill_name": "Lightning Fury",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/amazon/0058.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 6,
+            "col": 3
+          }
+        ]
+      },
+      {
+        "tree_id": 2,
+        "tree_name": "Passive and Magic",
+        "skill_points_allocated": 0,
+        "skills": [
+          {
+            "skill_name": "Inner Sight",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/amazon/0004.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 1,
+            "col": 1
+          },
+          {
+            "skill_name": "Critical Strike",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/amazon/0006.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 1,
+            "col": 3
+          },
+          {
+            "skill_name": "Evade",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/amazon/0046.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 2,
+            "col": 2
+          },
+          {
+            "skill_name": "Slow Missiles",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/amazon/0022.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 3,
+            "col": 1
+          },
+          {
+            "skill_name": "Penetrate",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/amazon/0034.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 3,
+            "col": 3
+          },
+          {
+            "skill_name": "Decoy",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/amazon/0044.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 4,
+            "col": 1
+          },
+          {
+            "skill_name": "Dodge",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/amazon/0014.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 4,
+            "col": 2
+          },
+          {
+            "skill_name": "Pierce",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/amazon/0034.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 5,
+            "col": 3
+          },
+          {
+            "skill_name": "Valkyrie",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/amazon/0052.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 6,
+            "col": 1
+          }
+        ]
+      },
+      {
+        "tree_id": 3,
+        "tree_name": "Bow and Crossbow",
+        "skill_points_allocated": 0,
+        "skills": [
+          {
+            "skill_name": "Magic Arrow",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/amazon/0000.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 1,
+            "col": 2
+          },
+          {
+            "skill_name": "Cold Arrow",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/amazon/0010.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 1,
+            "col": 2
+          },
+          {
+            "skill_name": "Multiple Shot",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/amazon/0012.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 2,
+            "col": 2
+          },
+          {
+            "skill_name": "Fire Arrow",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/amazon/0002.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 2,
+            "col": 3
+          },
+          {
+            "skill_name": "Ice Arrow",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/amazon/0030.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 3,
+            "col": 1
+          },
+          {
+            "skill_name": "Guided Arrow",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/amazon/0032.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 4,
+            "col": 2
+          },
+          {
+            "skill_name": "Exploding Arrow",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/amazon/0020.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 4,
+            "col": 3
+          },
+          {
+            "skill_name": "Strafe",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/amazon/0040.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 5,
+            "col": 2
+          },
+          {
+            "skill_name": "Freezing Arrow",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/amazon/0050.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 6,
+            "col": 1
+          },
+          {
+            "skill_name": "Immolation Arrow",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/amazon/0042.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 6,
+            "col": 3
+          }
+        ]
+      }
+    ]
+  }
+}

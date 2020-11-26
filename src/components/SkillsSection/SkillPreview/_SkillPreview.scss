@@ -1,0 +1,20 @@
+.SkillPreview-container {
+  position: absolute;
+  background-color: black;
+  left: 3.5rem;
+  z-index: 1;
+  color: $text-white;
+  .SkillPreview-content {
+    display: flex;
+    flex-direction: row;
+
+    .SkillPreview-current,
+    .SkillPreview-next {
+      border: 1px solid $text-gold;
+      display: flex;
+      flex-direction: column;
+      padding: 0.5rem;
+      min-width: 160px;
+    }
+  }
+}

@@ -1,0 +1,53 @@
+.LevelAttributeControl-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid $text-gold;
+  border-radius: 0.2rem;
+  margin-right: 1rem;
+  cursor: pointer;
+  background-color: $bg-ui-black;
+  color: $text-gold;
+
+  .LevelAttribute-content {
+    width: 200px;
+    padding: 0.5rem;
+    background-color: black;
+
+    .LevelAttribute-col {
+      display: flex;
+      flex-direction: column;
+
+      .PointsRemaining {
+        color: $text-white;
+        font-weight: bold;
+
+        span {
+          margin-left: auto;
+          width: 2rem;
+          text-align: center;
+        }
+      }
+
+      span {
+        display: flex;
+        flex-direction: row;
+
+        label {
+          display: inline-block;
+          margin-right: auto;
+        }
+
+        input[type="number"] {
+          width: 3rem;
+          margin-left: auto;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .LevelAttributeControl-container {
+    margin: 0.5rem auto;
+  }
+}

@@ -1,0 +1,62 @@
+@import "./SkillPreview/SkillPreview";
+@import "./SkillTree/SkillTree";
+@import "./SkillTreeInputDisplay/SkillTreeInputDisplay";
+
+.SkillsSection-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem 0.5rem 1rem;
+  margin-top: 0.5rem;
+  background-color: $bg-gen-ui;
+
+  @media (max-width: 768px) {
+    padding: 0 0 0.5rem 0;
+  }
+
+  .SkillsSection-row-1,
+  .SkillsSection-row-2 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .SkillsSection-row-1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 0.2rem 0.2rem 0 0;
+    background-color: rgb(71, 41, 41);
+
+    h4 {
+      margin-left: 0.5rem;
+    }
+  }
+
+  .SkillsSection-row-2 {
+    padding: 0.5rem;
+    margin: auto;
+  }
+
+  .SkillsSection-col-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .SkillsSection-container {
+    padding: 0 0 0.5rem 0;
+
+    .SkillsSection-row-2 {
+      display: none;
+    }
+
+    .SkillsSection-col-mobile {
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+
+      .SkillsSection-buttons-mobile {
+        max-width: 280px;
+      }
+    }
+  }
+}

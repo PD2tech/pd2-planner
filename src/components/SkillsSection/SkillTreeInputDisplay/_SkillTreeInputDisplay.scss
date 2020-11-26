@@ -1,0 +1,17 @@
+.SkillTreeInputDisplay-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin-left: 0.5rem;
+
+  h5 {
+    margin: 0.5rem 0;
+    color: $text-white;
+  }
+
+  button {
+    display: inline-block;
+    max-width: 100px;
+    margin: auto 0 auto 1rem;
+  }
+}

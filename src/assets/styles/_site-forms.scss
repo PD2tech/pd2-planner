@@ -1,0 +1,61 @@
+.site-form-submit-button {
+  height: 2rem;
+  width: 6rem;
+  margin: auto;
+  border-radius: 0.2rem;
+
+  background-color: $btn-blue;
+  border: none;
+  cursor: pointer;
+  margin-top: 1rem;
+
+  text-transform: uppercase;
+  color: $text-white;
+  font-weight: bold;
+
+  transition: 0.5s;
+}
+
+@media (hover: hover) {
+  .site-form-submit-button:hover {
+    transition: 0.5s;
+    background-color: $btn-blue-hover;
+  }
+}
+
+.site-form-submit-button-disabled {
+  height: 2rem;
+  width: 6rem;
+  margin: auto;
+  border-radius: 0.2rem;
+
+  background-color: $btn-blue-hover;
+  border: none;
+  cursor: pointer;
+  margin-top: 1rem;
+
+  text-transform: uppercase;
+  color: $text-white;
+  font-weight: bold;
+
+  opacity: 0.5;
+}
+
+.site-form-text-input {
+  margin: 0.5rem auto;
+  width: 210px;
+  border: 1px solid $btn-blue;
+  border-radius: 0.2rem;
+  padding: 0.3rem 0;
+  font-size: 1rem;
+  text-indent: 0.2rem;
+}
+
+.form-error {
+  color: $text-red;
+  text-align: center;
+}
+
+.form-success {
+  color: $text-green;
+}

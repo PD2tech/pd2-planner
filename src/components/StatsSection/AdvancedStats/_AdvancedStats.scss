@@ -1,0 +1,24 @@
+.AdvancedStats-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+
+  .AdvancedStats-row-1,
+  .AdvancedStats-row-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .AdvancedStats-row-1 {
+    border-radius: 0.2rem 0.2rem 0 0;
+    background-color: rgb(49, 26, 70);
+    h4 {
+      margin-left: 0.5rem;
+    }
+  }
+
+  .AdvancedStats-row-2 {
+    padding: 0.5rem;
+  }
+}

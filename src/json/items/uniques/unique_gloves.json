@@ -1,0 +1,1067 @@
+[
+  {
+    "item_name": "The Hand of Broc",
+    "item_type": "armor",
+    "item_image": "https://pd2-tools-planner.s3.amazonaws.com/item_images/gloves/lgl.png",
+    "item_properties": {
+      "item_base": "Leather Gloves",
+      "sub_type": "gloves",
+      "class_specific": null,
+      "defense": {
+        "min": 2,
+        "max": 3
+      },
+      "durability": 12,
+      "strength_requirement": 0,
+      "dexterity_requirement": 0,
+      "level_requirement": 5,
+      "item_tier": 1,
+      "rarity_type": 3,
+      "quality_modifier": {
+        "low_quality": false,
+        "superior": false,
+        "ethereal": false
+      }
+    },
+    "item_mods": {
+      "manadrainmindam": {
+        "min": 3,
+        "max": 3
+      },
+      "lifedrainmindam": {
+        "min": 3,
+        "max": 3
+      },
+      "poisonresist": {
+        "min": 10,
+        "max": 10
+      },
+      "maxmana": {
+        "min": 20,
+        "max": 20
+      },
+      "armorclass": {
+        "min": 10,
+        "max": 10
+      },
+      "item_armor_percent": {
+        "min": 10,
+        "max": 20
+      },
+      "item_damage_percent": {
+        "min": 20,
+        "max": 30
+      }
+    },
+    "property_strings": [
+      {
+        "order": "160",
+        "string": "+20-30% Enhanced Damage"
+      },
+      {
+        "order": "89",
+        "string": "3% Mana stolen per hit"
+      },
+      {
+        "order": "88",
+        "string": "3% Life stolen per hit"
+      },
+      {
+        "order": "74",
+        "string": "+10-20% Enhanced Defense"
+      },
+      {
+        "order": "71",
+        "string": "+10 Defense"
+      },
+      {
+        "order": "55",
+        "string": "+20 to Mana"
+      },
+      {
+        "order": "34",
+        "string": "Poison Resist +10%"
+      }
+    ]
+  },
+  {
+    "item_name": "Bloodfist",
+    "item_type": "armor",
+    "item_image": "https://pd2-tools-planner.s3.amazonaws.com/item_images/gloves/vgl.png",
+    "item_properties": {
+      "item_base": "Heavy Gloves",
+      "sub_type": "gloves",
+      "class_specific": null,
+      "defense": {
+        "min": 5,
+        "max": 6
+      },
+      "durability": 14,
+      "strength_requirement": 0,
+      "dexterity_requirement": 0,
+      "level_requirement": 9,
+      "item_tier": 1,
+      "rarity_type": 3,
+      "quality_modifier": {
+        "low_quality": false,
+        "superior": false,
+        "ethereal": false
+      }
+    },
+    "item_mods": {
+      "damage_max": {
+        "min": 5,
+        "max": 10
+      },
+      "maxhp": {
+        "min": 40,
+        "max": 40
+      },
+      "item_fastergethitrate": {
+        "min": 30,
+        "max": 30
+      },
+      "armorclass": {
+        "min": 10,
+        "max": 10
+      },
+      "item_armor_percent": {
+        "min": 10,
+        "max": 20
+      },
+      "item_fasterattackrate": {
+        "min": 10,
+        "max": 10
+      }
+    },
+    "property_strings": [
+      {
+        "order": "160",
+        "string": "+5-10 to Maximum Damage"
+      },
+      {
+        "order": "145",
+        "string": "+10% Increased Attack Speed"
+      },
+      {
+        "order": "139",
+        "string": "+30% Faster Hit Recovery"
+      },
+      {
+        "order": "74",
+        "string": "+10-20% Enhanced Defense"
+      },
+      {
+        "order": "71",
+        "string": "+10 Defense"
+      },
+      {
+        "order": "59",
+        "string": "+40 to Life"
+      }
+    ]
+  },
+  {
+    "item_name": "Chance Guards",
+    "item_type": "armor",
+    "item_image": "https://pd2-tools-planner.s3.amazonaws.com/item_images/gloves/mgl.png",
+    "item_properties": {
+      "item_base": "Chain Gloves",
+      "sub_type": "gloves",
+      "class_specific": null,
+      "defense": {
+        "min": 8,
+        "max": 9
+      },
+      "durability": 16,
+      "strength_requirement": 25,
+      "dexterity_requirement": 0,
+      "level_requirement": 15,
+      "item_tier": 1,
+      "rarity_type": 3,
+      "quality_modifier": {
+        "low_quality": false,
+        "superior": false,
+        "ethereal": false
+      }
+    },
+    "item_mods": {
+      "item_goldbonus": {
+        "min": 200,
+        "max": 200
+      },
+      "item_magicbonus": {
+        "min": 25,
+        "max": 40
+      },
+      "tohit": {
+        "min": 25,
+        "max": 25
+      },
+      "armorclass": {
+        "min": 15,
+        "max": 15
+      },
+      "item_lightradius": {
+        "min": 2,
+        "max": 2
+      },
+      "item_armor_percent": {
+        "min": 20,
+        "max": 30
+      },
+      "item_manaafterkill": {
+        "min": 1,
+        "max": 2
+      }
+    },
+    "property_strings": [
+      {
+        "order": "115",
+        "string": "+25 to Attack Rating"
+      },
+      {
+        "order": "74",
+        "string": "+20-30% Enhanced Defense"
+      },
+      {
+        "order": "71",
+        "string": "+15 Defense"
+      },
+      {
+        "order": "16",
+        "string": "+1-2 to Mana after each Kill"
+      },
+      {
+        "order": "10",
+        "string": "200% Extra Gold from Monsters"
+      },
+      {
+        "order": "8",
+        "string": "25-40% Better Chance of Getting Magic Items"
+      },
+      {
+        "order": "6",
+        "string": "+2 to Light Radius"
+      }
+    ]
+  },
+  {
+    "item_name": "Magefist",
+    "item_type": "armor",
+    "item_image": "https://pd2-tools-planner.s3.amazonaws.com/item_images/gloves/tgl.png",
+    "item_properties": {
+      "item_base": "Light Gauntlets",
+      "sub_type": "gloves",
+      "class_specific": null,
+      "defense": {
+        "min": 9,
+        "max": 11
+      },
+      "durability": 18,
+      "strength_requirement": 45,
+      "dexterity_requirement": 0,
+      "level_requirement": 23,
+      "item_tier": 1,
+      "rarity_type": 3,
+      "quality_modifier": {
+        "low_quality": false,
+        "superior": false,
+        "ethereal": false
+      }
+    },
+    "item_mods": {
+      "item_fastercastrate": {
+        "min": 20,
+        "max": 20
+      },
+      "manarecoverybonus": {
+        "min": 10,
+        "max": 25
+      },
+      "fire_skills": {
+        "min": 1,
+        "max": 1
+      },
+      "fire_damage": {
+        "min": 6,
+        "max": 36
+      },
+      "armorclass": {
+        "min": 10,
+        "max": 10
+      },
+      "item_armor_percent": {
+        "min": 20,
+        "max": 30
+      }
+    },
+    "property_strings": [
+      {
+        "order": "160",
+        "string": "+6-36 Fire Damage"
+      },
+      {
+        "order": "157",
+        "string": "+1 to Fire Skills"
+      },
+      {
+        "order": "142",
+        "string": "+20% Faster Cast Rate"
+      },
+      {
+        "order": "74",
+        "string": "+20-30% Enhanced Defense"
+      },
+      {
+        "order": "71",
+        "string": "+10 Defense"
+      },
+      {
+        "order": "52",
+        "string": "Regenerate Mana 10-25%"
+      }
+    ]
+  },
+  {
+    "item_name": "Frostburn",
+    "item_type": "armor",
+    "item_image": "https://pd2-tools-planner.s3.amazonaws.com/item_images/gloves/hgl.png",
+    "item_properties": {
+      "item_base": "Gauntlets",
+      "sub_type": "gloves",
+      "class_specific": null,
+      "defense": {
+        "min": 12,
+        "max": 15
+      },
+      "durability": 24,
+      "strength_requirement": 60,
+      "dexterity_requirement": 0,
+      "level_requirement": 29,
+      "item_tier": 1,
+      "rarity_type": 3,
+      "quality_modifier": {
+        "low_quality": false,
+        "superior": false,
+        "ethereal": false
+      }
+    },
+    "item_mods": {
+      "armorclass": {
+        "min": 20,
+        "max": 40
+      },
+      "fire_damage": {
+        "min": 14,
+        "max": 28
+      },
+      "item_maxmana_percent": {
+        "min": 10,
+        "max": 20
+      },
+      "cold_damage": {
+        "min": 6,
+        "max": 22
+      },
+      "item_armor_percent": {
+        "min": 10,
+        "max": 20
+      },
+      "passive_cold_pierce": {
+        "min": 4,
+        "max": 6
+      },
+      "passive_fire_pierce": {
+        "min": 4,
+        "max": 6
+      }
+    },
+    "property_strings": [
+      {
+        "order": "160",
+        "string": "+14-28 Fire Damage"
+      },
+      {
+        "order": "160",
+        "string": "+6-22 Cold Damage"
+      },
+      {
+        "order": "88",
+        "string": "-4-6% to Enemy Cold Resistance"
+      },
+      {
+        "order": "88",
+        "string": "-4-6% to Enemy Fire Resistance"
+      },
+      {
+        "order": "74",
+        "string": "+10-20% Enhanced Defense"
+      },
+      {
+        "order": "71",
+        "string": "+20-40 Defense"
+      },
+      {
+        "order": "54",
+        "string": "Increase Maximum Mana 10-20%"
+      }
+    ]
+  },
+  {
+    "item_name": "Venom Grip",
+    "item_type": "armor",
+    "item_image": "https://pd2-tools-planner.s3.amazonaws.com/item_images/gloves/lgl.png",
+    "item_properties": {
+      "item_base": "Demonhide Gloves",
+      "sub_type": "gloves",
+      "class_specific": null,
+      "defense": {
+        "min": 28,
+        "max": 35
+      },
+      "durability": 12,
+      "strength_requirement": 20,
+      "dexterity_requirement": 0,
+      "level_requirement": 29,
+      "item_tier": 2,
+      "rarity_type": 3,
+      "quality_modifier": {
+        "low_quality": false,
+        "superior": false,
+        "ethereal": false
+      }
+    },
+    "item_mods": {
+      "poisonresist": {
+        "min": 30,
+        "max": 30
+      },
+      "maxpoisonresist": {
+        "min": 5,
+        "max": 5
+      },
+      "passive_pois_mastery": {
+        "min": 10,
+        "max": 15
+      },
+      "item_crushingblow": {
+        "min": 5,
+        "max": 10
+      },
+      "lifedrainmindam": {
+        "min": 2,
+        "max": 4
+      },
+      "armorclass": {
+        "min": 15,
+        "max": 25
+      },
+      "item_armor_percent": {
+        "min": 130,
+        "max": 160
+      }
+    },
+    "property_strings": [
+      {
+        "order": "88",
+        "string": "+10-15% to Poison Skill Damage"
+      },
+      {
+        "order": "88",
+        "string": "2-4% Life stolen per hit"
+      },
+      {
+        "order": "87",
+        "string": "5-10% Chance of Crushing Blow"
+      },
+      {
+        "order": "74",
+        "string": "+130-160% Enhanced Defense"
+      },
+      {
+        "order": "71",
+        "string": "+15-25 Defense"
+      },
+      {
+        "order": "45",
+        "string": "+5% to Maximum Poison Resist"
+      },
+      {
+        "order": "34",
+        "string": "Poison Resist +30%"
+      }
+    ]
+  },
+  {
+    "item_name": "Gravepalm",
+    "item_type": "armor",
+    "item_image": "https://pd2-tools-planner.s3.amazonaws.com/item_images/gloves/vgl.png",
+    "item_properties": {
+      "item_base": "Sharkskin Gloves",
+      "sub_type": "gloves",
+      "class_specific": null,
+      "defense": {
+        "min": 33,
+        "max": 39
+      },
+      "durability": 14,
+      "strength_requirement": 20,
+      "dexterity_requirement": 0,
+      "level_requirement": 32,
+      "item_tier": 2,
+      "rarity_type": 3,
+      "quality_modifier": {
+        "low_quality": false,
+        "superior": false,
+        "ethereal": false
+      }
+    },
+    "item_mods": {
+      "energy": {
+        "min": 10,
+        "max": 10
+      },
+      "strength": {
+        "min": 10,
+        "max": 10
+      },
+      "item_undeaddamage_percent": {
+        "min": 100,
+        "max": 200
+      },
+      "item_undead_tohit": {
+        "min": 100,
+        "max": 200
+      },
+      "item_armor_percent": {
+        "min": 140,
+        "max": 180
+      },
+      "item_deadlystrike": {
+        "min": 10,
+        "max": 18
+      },
+      "summoning_necro": {
+        "min": 1,
+        "max": 1
+      }
+    },
+    "property_strings": [
+      {
+        "order": "151",
+        "string": "+1 to Summoning Necro"
+      },
+      {
+        "order": "108",
+        "string": "+100-200% Damage to Undead"
+      },
+      {
+        "order": "108",
+        "string": "+100-200% Damage To Undead"
+      },
+      {
+        "order": "106",
+        "string": "+100-200 to Attack Rating against Undead"
+      },
+      {
+        "order": "85",
+        "string": "10-18% Deadly Strike"
+      },
+      {
+        "order": "74",
+        "string": "+140-180% Enhanced Defense"
+      },
+      {
+        "order": "67",
+        "string": "+10 to Strength"
+      },
+      {
+        "order": "61",
+        "string": "+10 to Energy"
+      }
+    ]
+  },
+  {
+    "item_name": "Ghoulhide",
+    "item_type": "armor",
+    "item_image": "https://pd2-tools-planner.s3.amazonaws.com/item_images/gloves/mgl.png",
+    "item_properties": {
+      "item_base": "Heavy Bracers",
+      "sub_type": "gloves",
+      "class_specific": null,
+      "defense": {
+        "min": 37,
+        "max": 44
+      },
+      "durability": 16,
+      "strength_requirement": 58,
+      "dexterity_requirement": 0,
+      "level_requirement": 36,
+      "item_tier": 2,
+      "rarity_type": 3,
+      "quality_modifier": {
+        "low_quality": false,
+        "superior": false,
+        "ethereal": false
+      }
+    },
+    "item_mods": {
+      "item_tohit_undead_perlevel": {
+        "min": 8,
+        "max": 8
+      },
+      "item_damage_undead_perlevel": {
+        "min": 2,
+        "max": 2
+      },
+      "manadrainmindam": {
+        "min": 4,
+        "max": 5
+      },
+      "maxhp": {
+        "min": 20,
+        "max": 40
+      },
+      "item_armor_percent": {
+        "min": 150,
+        "max": 190
+      },
+      "item_fasterattackrate": {
+        "min": 20,
+        "max": 20
+      }
+    },
+    "property_strings": [
+      {
+        "order": "145",
+        "string": "+20% Increased Attack Speed"
+      },
+      {
+        "order": "107",
+        "string": "+2-200% Damage to Undead (+2 Based On Character level)"
+      },
+      {
+        "order": "105",
+        "string": "+8-800 to Attack Rating against Undead (+8 Based On Character level)"
+      },
+      {
+        "order": "89",
+        "string": "4-5% Mana stolen per hit"
+      },
+      {
+        "order": "74",
+        "string": "+150-190% Enhanced Defense"
+      },
+      {
+        "order": "59",
+        "string": "+20-40 to Life"
+      }
+    ]
+  },
+  {
+    "item_name": "Lava Gout",
+    "item_type": "armor",
+    "item_image": "https://pd2-tools-planner.s3.amazonaws.com/item_images/gloves/tgl.png",
+    "item_properties": {
+      "item_base": "Battle Gauntlets",
+      "sub_type": "gloves",
+      "class_specific": null,
+      "defense": {
+        "min": 39,
+        "max": 47
+      },
+      "durability": 18,
+      "strength_requirement": 88,
+      "dexterity_requirement": 0,
+      "level_requirement": 42,
+      "item_tier": 2,
+      "rarity_type": 3,
+      "quality_modifier": {
+        "low_quality": false,
+        "superior": false,
+        "ethereal": false
+      }
+    },
+    "item_mods": {
+      "fireresist": {
+        "min": 24,
+        "max": 36
+      },
+      "item_halffreezeduration": {
+        "min": 1,
+        "max": 1
+      },
+      "item_skillonhit": {
+        "min": 2,
+        "max": 10
+      },
+      "item_fasterattackrate": {
+        "min": 20,
+        "max": 20
+      },
+      "item_armor_percent": {
+        "min": 150,
+        "max": 200
+      },
+      "fire_damage": {
+        "min": 26,
+        "max": 92
+      },
+      "maxdurability": {
+        "min": 20,
+        "max": 20
+      },
+      "maxfireresist": {
+        "min": 2,
+        "max": 5
+      }
+    },
+    "property_strings": [
+      {
+        "order": "160",
+        "string": "2% Chance to cast level 10 Enchant on striking"
+      },
+      {
+        "order": "160",
+        "string": "+26-92 Fire Damage"
+      },
+      {
+        "order": "145",
+        "string": "+20% Increased Attack Speed"
+      },
+      {
+        "order": "74",
+        "string": "+150-200% Enhanced Defense"
+      },
+      {
+        "order": "42",
+        "string": "+2-5% to Maximum Fire Resist"
+      },
+      {
+        "order": "36",
+        "string": "Fire Resist +24-36%"
+      },
+      {
+        "order": "19",
+        "string": "Half Freeze Duration"
+      }
+    ]
+  },
+  {
+    "item_name": "Hellmouth",
+    "item_type": "armor",
+    "item_image": "https://pd2-tools-planner.s3.amazonaws.com/item_images/gloves/hgl.png",
+    "item_properties": {
+      "item_base": "War Gauntlets",
+      "sub_type": "gloves",
+      "class_specific": null,
+      "defense": {
+        "min": 43,
+        "max": 53
+      },
+      "durability": 24,
+      "strength_requirement": 110,
+      "dexterity_requirement": 0,
+      "level_requirement": 47,
+      "item_tier": 2,
+      "rarity_type": 3,
+      "quality_modifier": {
+        "low_quality": false,
+        "superior": false,
+        "ethereal": false
+      }
+    },
+    "item_mods": {
+      "fire_damage": {
+        "min": 30,
+        "max": 144
+      },
+      "item_absorbfire": {
+        "min": 15,
+        "max": 15
+      },
+      "item_armor_percent": {
+        "min": 150,
+        "max": 200
+      },
+      "maxdurability": {
+        "min": 15,
+        "max": 15
+      },
+      "item_skillonhit": {
+        "min": 8,
+        "max": 22
+      },
+      "item_attackertakesdamage": {
+        "min": 200,
+        "max": 350
+      },
+      "passive_fire_pierce": {
+        "min": 5,
+        "max": 10
+      }
+    },
+    "property_strings": [
+      {
+        "order": "160",
+        "string": "+30-144 Fire Damage"
+      },
+      {
+        "order": "160",
+        "string": "4% Chance to cast level 34 Meteor on striking"
+      },
+      {
+        "order": "160",
+        "string": "8% Chance to cast level 22 Molten Boulder on striking"
+      },
+      {
+        "order": "88",
+        "string": "-5-10% to Enemy Fire Resistance"
+      },
+      {
+        "order": "74",
+        "string": "+150-200% Enhanced Defense"
+      },
+      {
+        "order": "27",
+        "string": "+15 Fire Absorb"
+      },
+      {
+        "order": "13",
+        "string": "Attacker Takes Damage of 200-350"
+      }
+    ]
+  },
+  {
+    "item_name": "Soul Drainer",
+    "item_type": "armor",
+    "item_image": "https://pd2-tools-planner.s3.amazonaws.com/item_images/gloves/mgl.png",
+    "item_properties": {
+      "item_base": "Vambraces",
+      "sub_type": "gloves",
+      "class_specific": null,
+      "defense": {
+        "min": 59,
+        "max": 67
+      },
+      "durability": 16,
+      "strength_requirement": 106,
+      "dexterity_requirement": 0,
+      "level_requirement": 74,
+      "item_tier": 3,
+      "rarity_type": 3,
+      "quality_modifier": {
+        "low_quality": false,
+        "superior": false,
+        "ethereal": false
+      }
+    },
+    "item_mods": {
+      "item_armor_percent": {
+        "min": 90,
+        "max": 120
+      },
+      "manadrainmindam": {
+        "min": 4,
+        "max": 7
+      },
+      "lifedrainmindam": {
+        "min": 4,
+        "max": 7
+      },
+      "item_attackertakesdamage": {
+        "min": 600,
+        "max": 860
+      },
+      "item_damagetargetac": {
+        "min": -200,
+        "max": -200
+      },
+      "item_fastergethitrate": {
+        "min": 20,
+        "max": 20
+      },
+      "item_pierce": {
+        "min": 20,
+        "max": 20
+      }
+    },
+    "property_strings": [
+      {
+        "order": "139",
+        "string": "+20% Faster Hit Recovery"
+      },
+      {
+        "order": "132",
+        "string": "+20% Chance to Pierce"
+      },
+      {
+        "order": "89",
+        "string": "4-7% Mana stolen per hit"
+      },
+      {
+        "order": "88",
+        "string": "4-7% Life stolen per hit"
+      },
+      {
+        "order": "75",
+        "string": "-200 to Monster Defense Per Hit"
+      },
+      {
+        "order": "74",
+        "string": "+90-120% Enhanced Defense"
+      },
+      {
+        "order": "13",
+        "string": "Attacker Takes Damage of 600-860"
+      }
+    ]
+  },
+  {
+    "item_name": "Dracul's Grasp",
+    "item_type": "armor",
+    "item_image": "https://pd2-tools-planner.s3.amazonaws.com/item_images/gloves/vgl.png",
+    "item_properties": {
+      "item_base": "Vampirebone Gloves",
+      "sub_type": "gloves",
+      "class_specific": null,
+      "defense": {
+        "min": 56,
+        "max": 65
+      },
+      "durability": 14,
+      "strength_requirement": 50,
+      "dexterity_requirement": 0,
+      "level_requirement": 76,
+      "item_tier": 3,
+      "rarity_type": 3,
+      "quality_modifier": {
+        "low_quality": false,
+        "superior": false,
+        "ethereal": false
+      }
+    },
+    "item_mods": {
+      "item_armor_percent": {
+        "min": 90,
+        "max": 120
+      },
+      "lifedrainmindam": {
+        "min": 7,
+        "max": 10
+      },
+      "item_openwounds": {
+        "min": 25,
+        "max": 25
+      },
+      "item_fasterattackrate": {
+        "min": 20,
+        "max": 20
+      },
+      "item_healafterkill": {
+        "min": 5,
+        "max": 10
+      },
+      "strength": {
+        "min": 10,
+        "max": 15
+      }
+    },
+    "property_strings": [
+      {
+        "order": "145",
+        "string": "+20% Increased Attack Speed"
+      },
+      {
+        "order": "88",
+        "string": "7-10% Life stolen per hit"
+      },
+      {
+        "order": "83",
+        "string": "25% Chance of Open Wounds"
+      },
+      {
+        "order": "74",
+        "string": "+90-120% Enhanced Defense"
+      },
+      {
+        "order": "67",
+        "string": "+10-15 to Strength"
+      },
+      {
+        "order": "16",
+        "string": "+5-10 Life after each Kill"
+      }
+    ]
+  },
+  {
+    "item_name": "Steelrend",
+    "item_type": "armor",
+    "item_image": "https://pd2-tools-planner.s3.amazonaws.com/item_images/gloves/hgl.png",
+    "item_properties": {
+      "item_base": "Ogre Gauntlets",
+      "sub_type": "gloves",
+      "class_specific": null,
+      "defense": {
+        "min": 62,
+        "max": 71
+      },
+      "durability": 24,
+      "strength_requirement": 185,
+      "dexterity_requirement": 0,
+      "level_requirement": 70,
+      "item_tier": 3,
+      "rarity_type": 3,
+      "quality_modifier": {
+        "low_quality": false,
+        "superior": false,
+        "ethereal": false
+      }
+    },
+    "item_mods": {
+      "armorclass": {
+        "min": 170,
+        "max": 210
+      },
+      "strength": {
+        "min": 15,
+        "max": 20
+      },
+      "item_damage_percent": {
+        "min": 40,
+        "max": 80
+      },
+      "item_crushingblow": {
+        "min": 10,
+        "max": 15
+      },
+      "item_splashonhit": {
+        "min": 100,
+        "max": 1
+      }
+    },
+    "property_strings": [
+      {
+        "order": "160",
+        "string": "+40-80% Enhanced Damage"
+      },
+      {
+        "order": "160",
+        "string": "Melee Attacks Deal Splash Damage"
+      },
+      {
+        "order": "87",
+        "string": "10-15% Chance of Crushing Blow"
+      },
+      {
+        "order": "71",
+        "string": "+170-210 Defense"
+      },
+      {
+        "order": "67",
+        "string": "+15-20 to Strength"
+      }
+    ]
+  }
+]

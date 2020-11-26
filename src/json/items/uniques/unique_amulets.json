@@ -1,0 +1,790 @@
+[
+  {
+    "item_name": "Nokozan Relic",
+    "item_image": "https://pd2-tools-planner.s3.amazonaws.com/item_images/amulets/amu.png",
+    "item_type": "amulet",
+    "item_properties": {
+      "item_base": "Amulet",
+      "sub_type": null,
+      "class_specific": null,
+      "level_requirement": 81,
+      "item_tier": null,
+      "rarity_type": 3
+    },
+    "item_mods": {
+      "firemindam": {
+        "min": 3,
+        "max": 6
+      },
+      "firemaxdam": {
+        "min": 7,
+        "max": 12
+      },
+      "maxfireresist": {
+        "min": 10,
+        "max": 10
+      },
+      "fireresist": {
+        "min": 25,
+        "max": 50
+      },
+      "item_lightradius": {
+        "min": 3,
+        "max": 3
+      },
+      "item_fastergethitrate": {
+        "min": 20,
+        "max": 30
+      }
+    },
+    "property_strings": [
+      {
+        "order": "139",
+        "string": "+20-30% Faster Hit Recovery"
+      },
+      {
+        "order": "102",
+        "string": "+3-6 to Minimum Fire Damage"
+      },
+      {
+        "order": "101",
+        "string": "+7-12 to Maximum Fire Damage"
+      },
+      {
+        "order": "42",
+        "string": "+10% to Maximum Fire Resist"
+      },
+      {
+        "order": "36",
+        "string": "Fire Resist +25-50%"
+      },
+      {
+        "order": "6",
+        "string": "+3 to Light Radius"
+      }
+    ]
+  },
+  {
+    "item_name": "The Eye of Etlich",
+    "item_image": "https://pd2-tools-planner.s3.amazonaws.com/item_images/amulets/amu.png",
+    "item_type": "amulet",
+    "item_properties": {
+      "item_base": "Amulet",
+      "sub_type": null,
+      "class_specific": null,
+      "level_requirement": 81,
+      "item_tier": null,
+      "rarity_type": 3
+    },
+    "item_mods": {
+      "armorclass_vs_missile": {
+        "min": 10,
+        "max": 40
+      },
+      "item_lightradius": {
+        "min": 1,
+        "max": 5
+      },
+      "item_allskills": {
+        "min": 1,
+        "max": 1
+      },
+      "lifedrainmindam": {
+        "min": 3,
+        "max": 7
+      },
+      "coldmindam": {
+        "min": 4,
+        "max": 6
+      },
+      "coldmaxdam": {
+        "min": 12,
+        "max": 20
+      },
+      "coldlength": {
+        "min": 50,
+        "max": 250
+      }
+    },
+    "property_strings": [
+      {
+        "order": "158",
+        "string": "+1 to All Skills"
+      },
+      {
+        "order": "96",
+        "string": "+4-6 to Minimum Cold Damage"
+      },
+      {
+        "order": "95",
+        "string": "+12-20 to Maximum Cold Damage"
+      },
+      {
+        "order": "88",
+        "string": "3-7% Life stolen per hit"
+      },
+      {
+        "order": "69",
+        "string": "+10-40 Defense vs. Missile"
+      },
+      {
+        "order": "6",
+        "string": "+1-5 to Light Radius"
+      }
+    ]
+  },
+  {
+    "item_name": "The Mahim-Oak Curio",
+    "item_image": "https://pd2-tools-planner.s3.amazonaws.com/item_images/amulets/amu.png",
+    "item_type": "amulet",
+    "item_properties": {
+      "item_base": "Amulet",
+      "sub_type": null,
+      "class_specific": null,
+      "level_requirement": 81,
+      "item_tier": null,
+      "rarity_type": 3
+    },
+    "item_mods": {
+      "strength": {
+        "min": 5,
+        "max": 10
+      },
+      "armorclass": {
+        "min": 5,
+        "max": 10
+      },
+      "item_tohit_percent": {
+        "min": 30,
+        "max": 50
+      },
+      "all_resist": {
+        "min": 5,
+        "max": 10
+      },
+      "item_armor_percent": {
+        "min": 5,
+        "max": 10
+      },
+      "item_fastercastrate": {
+        "min": 5,
+        "max": 10
+      }
+    },
+    "property_strings": [
+      {
+        "order": "160",
+        "string": "All Resistances +5-10"
+      },
+      {
+        "order": "142",
+        "string": "+5-10% Faster Cast Rate"
+      },
+      {
+        "order": "117",
+        "string": "30-50% Bonus to Attack Rating"
+      },
+      {
+        "order": "74",
+        "string": "+5-10% Enhanced Defense"
+      },
+      {
+        "order": "71",
+        "string": "+5-10 Defense"
+      },
+      {
+        "order": "67",
+        "string": "+5-10 to Strength"
+      }
+    ]
+  },
+  {
+    "item_name": "The Cat's Eye",
+    "item_image": "https://pd2-tools-planner.s3.amazonaws.com/item_images/amulets/amu.png",
+    "item_type": "amulet",
+    "item_properties": {
+      "item_base": "Amulet",
+      "sub_type": null,
+      "class_specific": null,
+      "level_requirement": 81,
+      "item_tier": null,
+      "rarity_type": 3
+    },
+    "item_mods": {
+      "item_fastermovevelocity": {
+        "min": 30,
+        "max": 30
+      },
+      "item_fasterattackrate": {
+        "min": 20,
+        "max": 20
+      },
+      "armorclass": {
+        "min": 100,
+        "max": 100
+      },
+      "armorclass_vs_missile": {
+        "min": 100,
+        "max": 100
+      },
+      "dexterity": {
+        "min": 25,
+        "max": 25
+      }
+    },
+    "property_strings": [
+      {
+        "order": "148",
+        "string": "+30% Faster Run/Walk"
+      },
+      {
+        "order": "145",
+        "string": "+20% Increased Attack Speed"
+      },
+      {
+        "order": "71",
+        "string": "+100 Defense"
+      },
+      {
+        "order": "69",
+        "string": "+100 Defense vs. Missile"
+      },
+      {
+        "order": "65",
+        "string": "+25 to Dexterity"
+      }
+    ]
+  },
+  {
+    "item_name": "The Rising Sun",
+    "item_image": "https://pd2-tools-planner.s3.amazonaws.com/item_images/amulets/amu.png",
+    "item_type": "amulet",
+    "item_properties": {
+      "item_base": "Amulet",
+      "sub_type": null,
+      "class_specific": null,
+      "level_requirement": 81,
+      "item_tier": null,
+      "rarity_type": 3
+    },
+    "item_mods": {
+      "item_absorb_fire_perlevel": {
+        "min": 0.25,
+        "max": 0.25
+      },
+      "item_lightradius": {
+        "min": 4,
+        "max": 4
+      },
+      "item_skillongethit": {
+        "min": 4,
+        "max": 23
+      },
+      "firemindam": {
+        "min": 80,
+        "max": 124
+      },
+      "firemaxdam": {
+        "min": 200,
+        "max": 248
+      },
+      "fire_skills": {
+        "min": 1,
+        "max": 2
+      },
+      "hpregen": {
+        "min": 10,
+        "max": 10
+      },
+      "passive_fire_pierce": {
+        "min": 6,
+        "max": 12
+      }
+    },
+    "property_strings": [
+      {
+        "order": "160",
+        "string": "4% Chance to cast level 23 Meteor when struck"
+      },
+      {
+        "order": "157",
+        "string": "+1-2 to Fire Skills"
+      },
+      {
+        "order": "102",
+        "string": "+80-124 to Minimum Fire Damage"
+      },
+      {
+        "order": "101",
+        "string": "+200-248 to Maximum Fire Damage"
+      },
+      {
+        "order": "88",
+        "string": "-6-12% to Enemy Fire Resistance"
+      },
+      {
+        "order": "56",
+        "string": "Replenish Life +10"
+      },
+      {
+        "order": "28",
+        "string": "+0.25-25 Absorbs Fire Damage (+0.25 Based On Character level)"
+      },
+      {
+        "order": "6",
+        "string": "+4 to Light Radius"
+      }
+    ]
+  },
+  {
+    "item_name": "Crescent Moon",
+    "item_image": "https://pd2-tools-planner.s3.amazonaws.com/item_images/amulets/amu.png",
+    "item_type": "amulet",
+    "item_properties": {
+      "item_base": "Amulet",
+      "sub_type": null,
+      "class_specific": null,
+      "level_requirement": 81,
+      "item_tier": null,
+      "rarity_type": 3
+    },
+    "item_mods": {
+      "manadrainmindam": {
+        "min": 4,
+        "max": 8
+      },
+      "magic_damage_reduction": {
+        "min": 5,
+        "max": 10
+      },
+      "item_fasterattackrate": {
+        "min": 10,
+        "max": 10
+      },
+      "cold_skills": {
+        "min": 1,
+        "max": 2
+      },
+      "maxmana": {
+        "min": 45,
+        "max": 45
+      },
+      "lifedrainmindam": {
+        "min": 3,
+        "max": 6
+      },
+      "item_fastercastrate": {
+        "min": 10,
+        "max": 10
+      }
+    },
+    "property_strings": [
+      {
+        "order": "157",
+        "string": "+1-2 to cold skills"
+      },
+      {
+        "order": "145",
+        "string": "+10% Increased Attack Speed"
+      },
+      {
+        "order": "142",
+        "string": "+10% Faster Cast Rate"
+      },
+      {
+        "order": "89",
+        "string": "4-8% Mana stolen per hit"
+      },
+      {
+        "order": "88",
+        "string": "3-6% Life stolen per hit"
+      },
+      {
+        "order": "55",
+        "string": "+45 to Mana"
+      },
+      {
+        "order": "21",
+        "string": "Magic Damage Taken Reduced by 5-10"
+      }
+    ]
+  },
+  {
+    "item_name": "Mara's Kaleidoscope",
+    "item_image": "https://pd2-tools-planner.s3.amazonaws.com/item_images/amulets/amu.png",
+    "item_type": "amulet",
+    "item_properties": {
+      "item_base": "Amulet",
+      "sub_type": null,
+      "class_specific": null,
+      "level_requirement": 81,
+      "item_tier": null,
+      "rarity_type": 3
+    },
+    "item_mods": {
+      "item_allskills": {
+        "min": 2,
+        "max": 2
+      },
+      "all_resist": {
+        "min": 20,
+        "max": 30
+      },
+      "strength": {
+        "min": 5,
+        "max": 5
+      },
+      "dexterity": {
+        "min": 5,
+        "max": 5
+      },
+      "vitality": {
+        "min": 5,
+        "max": 5
+      },
+      "energy": {
+        "min": 5,
+        "max": 5
+      }
+    },
+    "property_strings": [
+      {
+        "order": "160",
+        "string": "All Resistances +20-30"
+      },
+      {
+        "order": "158",
+        "string": "+2 to All Skills"
+      },
+      {
+        "order": "67",
+        "string": "+5 to Strength"
+      },
+      {
+        "order": "65",
+        "string": "+5 to Dexterity"
+      },
+      {
+        "order": "63",
+        "string": "+5 to Vitality"
+      },
+      {
+        "order": "61",
+        "string": "+5 to Energy"
+      }
+    ]
+  },
+  {
+    "item_name": "Atma's Scarab",
+    "item_image": "https://pd2-tools-planner.s3.amazonaws.com/item_images/amulets/amu.png",
+    "item_type": "amulet",
+    "item_properties": {
+      "item_base": "Amulet",
+      "sub_type": null,
+      "class_specific": null,
+      "level_requirement": 81,
+      "item_tier": null,
+      "rarity_type": 3
+    },
+    "item_mods": {
+      "poison_damage": {
+        "min": 1024,
+        "max": 1024
+      },
+      "poisonresist": {
+        "min": 30,
+        "max": 60
+      },
+      "item_lightradius": {
+        "min": 3,
+        "max": 3
+      },
+      "item_attackertakesdamage": {
+        "min": 400,
+        "max": 600
+      },
+      "item_skillonhit": {
+        "min": 7,
+        "max": 8
+      },
+      "item_tohit_percent": {
+        "min": 40,
+        "max": 60
+      }
+    },
+    "property_strings": [
+      {
+        "order": "160",
+        "string": "+1024 Poison Damage"
+      },
+      {
+        "order": "160",
+        "string": "7% Chance to cast level 8 Amplify Damage on striking"
+      },
+      {
+        "order": "117",
+        "string": "40-60% Bonus to Attack Rating"
+      },
+      {
+        "order": "34",
+        "string": "Poison Resist +30-60%"
+      },
+      {
+        "order": "13",
+        "string": "Attacker Takes Damage of 400-600"
+      },
+      {
+        "order": "6",
+        "string": "+3 to Light Radius"
+      }
+    ]
+  },
+  {
+    "item_name": "Highlord's Wrath",
+    "item_image": "https://pd2-tools-planner.s3.amazonaws.com/item_images/amulets/amu.png",
+    "item_type": "amulet",
+    "item_properties": {
+      "item_base": "Amulet",
+      "sub_type": null,
+      "class_specific": null,
+      "level_requirement": 81,
+      "item_tier": null,
+      "rarity_type": 3
+    },
+    "item_mods": {
+      "lightresist": {
+        "min": 25,
+        "max": 35
+      },
+      "lightning_damage": {
+        "min": 1,
+        "max": 300
+      },
+      "item_fasterattackrate": {
+        "min": 20,
+        "max": 20
+      },
+      "item_allskills": {
+        "min": 1,
+        "max": 1
+      },
+      "item_deadlystrike_perlevel": {
+        "min": 0.25,
+        "max": 0.25
+      },
+      "item_attackertakeslightdamage": {
+        "min": 400,
+        "max": 650
+      }
+    },
+    "property_strings": [
+      {
+        "order": "160",
+        "string": "+1-300 Lightning Damage"
+      },
+      {
+        "order": "158",
+        "string": "+1 to All Skills"
+      },
+      {
+        "order": "145",
+        "string": "+20% Increased Attack Speed"
+      },
+      {
+        "order": "84",
+        "string": "0.25-25% Deadly Strike (+0.25 Based On Character level)"
+      },
+      {
+        "order": "38",
+        "string": "Lightning Resist +25-35%"
+      },
+      {
+        "order": "14",
+        "string": "Attacker Takes Lightning Damage of 400-650"
+      }
+    ]
+  },
+  {
+    "item_name": "Saracen's Chance",
+    "item_image": "https://pd2-tools-planner.s3.amazonaws.com/item_images/amulets/amu.png",
+    "item_type": "amulet",
+    "item_properties": {
+      "item_base": "Amulet",
+      "sub_type": null,
+      "class_specific": null,
+      "level_requirement": 81,
+      "item_tier": null,
+      "rarity_type": 3
+    },
+    "item_mods": {
+      "all_resist": {
+        "min": 15,
+        "max": 25
+      },
+      "item_damage_percent": {
+        "min": 30,
+        "max": 50
+      },
+      "strength": {
+        "min": 12,
+        "max": 12
+      },
+      "item_skillongethit": {
+        "min": 10,
+        "max": 12
+      }
+    },
+    "property_strings": [
+      {
+        "order": "160",
+        "string": "All Resistances +15-25"
+      },
+      {
+        "order": "160",
+        "string": "+30-50% Enhanced Damage"
+      },
+      {
+        "order": "160",
+        "string": "10% Chance to cast level 12 Iron Maiden when struck"
+      },
+      {
+        "order": "67",
+        "string": "+12 to Strength"
+      }
+    ]
+  },
+  {
+    "item_name": "Seraph's Hymn",
+    "item_image": "https://pd2-tools-planner.s3.amazonaws.com/item_images/amulets/amu.png",
+    "item_type": "amulet",
+    "item_properties": {
+      "item_base": "Amulet",
+      "sub_type": null,
+      "class_specific": null,
+      "level_requirement": 81,
+      "item_tier": null,
+      "rarity_type": 3
+    },
+    "item_mods": {
+      "item_allskills": {
+        "min": 2,
+        "max": 2
+      },
+      "offensive_auras": {
+        "min": 1,
+        "max": 2
+      },
+      "item_demondamage_percent": {
+        "min": 50,
+        "max": 80
+      },
+      "item_undeaddamage_percent": {
+        "min": 50,
+        "max": 80
+      },
+      "item_demon_tohit": {
+        "min": 150,
+        "max": 250
+      },
+      "item_undead_tohit": {
+        "min": 150,
+        "max": 250
+      },
+      "item_lightradius": {
+        "min": 2,
+        "max": 2
+      }
+    },
+    "property_strings": [
+      {
+        "order": "158",
+        "string": "+2 to All Skills"
+      },
+      {
+        "order": "151",
+        "string": "+1-2 to Offensive Auras"
+      },
+      {
+        "order": "112",
+        "string": "+50-80% Damage to Demons"
+      },
+      {
+        "order": "110",
+        "string": "+150-250 to Attack Rating against Demons"
+      },
+      {
+        "order": "108",
+        "string": "+50-80% Damage to Undead"
+      },
+      {
+        "order": "108",
+        "string": "+50-80% Damage To Undead"
+      },
+      {
+        "order": "106",
+        "string": "+150-250 to Attack Rating against Undead"
+      },
+      {
+        "order": "6",
+        "string": "+2 to Light Radius"
+      }
+    ]
+  },
+  {
+    "item_name": "Metalgrid",
+    "item_image": "https://pd2-tools-planner.s3.amazonaws.com/item_images/amulets/amu.png",
+    "item_type": "amulet",
+    "item_properties": {
+      "item_base": "Amulet",
+      "sub_type": null,
+      "class_specific": null,
+      "level_requirement": 81,
+      "item_tier": null,
+      "rarity_type": 3
+    },
+    "item_mods": {
+      "item_attackertakesdamage": {
+        "min": 700,
+        "max": 900
+      },
+      "all_resist": {
+        "min": 25,
+        "max": 35
+      },
+      "tohit": {
+        "min": 400,
+        "max": 450
+      },
+      "iron_golem": {
+        "min": 16,
+        "max": 16
+      },
+      "item_charged_skill": {
+        "min": 20,
+        "max": 12
+      }
+    },
+    "property_strings": [
+      {
+        "order": "160",
+        "string": "All Resistances +25-35"
+      },
+      {
+        "order": "115",
+        "string": "+400-450 to Attack Rating"
+      },
+      {
+        "order": "81",
+        "string": "+16 to Iron Golem"
+      },
+      {
+        "order": "13",
+        "string": "Attacker Takes Damage of 700-900"
+      },
+      {
+        "order": "1",
+        "string": "Level 12 Iron Maiden (20 Charges)"
+      }
+    ]
+  }
+]

@@ -1,0 +1,128 @@
+.planner-form-text-input {
+  margin: 0.5rem auto;
+  width: 210px;
+  border: 1px solid $btn-blue;
+  border-radius: 0.2rem;
+  padding: 0.3rem 0;
+  font-size: 1rem;
+  text-indent: 0.2rem;
+}
+
+.planner-form-submit-button {
+  height: 2rem;
+  width: 6rem;
+  margin: auto;
+  border-radius: 0.2rem;
+
+  background-color: $btn-blue;
+  border: none;
+  cursor: pointer;
+  margin-top: 1rem;
+
+  text-transform: uppercase;
+  color: $text-white;
+  font-weight: bold;
+
+  transition: 0.5s;
+}
+
+@media (hover: hover) {
+  .planner-form-submit-button:hover {
+    transition: 0.5s;
+    background-color: $btn-blue-hover;
+  }
+}
+
+.planner-form-submit-button-disabled {
+  height: 2rem;
+  width: 6rem;
+  margin: auto;
+  border-radius: 0.2rem;
+
+  background-color: $btn-blue-hover;
+  border: none;
+  cursor: pointer;
+  margin-top: 1rem;
+
+  text-transform: uppercase;
+  color: $text-white;
+  font-weight: bold;
+
+  opacity: 0.5;
+}
+
+.remove-button {
+  border: 1px solid $text-red;
+  height: 1.5rem;
+  border-radius: 0.2rem;
+  color: $text-red;
+  background-color: black;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.remove-button:hover {
+  background-color: $bg-ui-hover;
+}
+
+.remove-button-disabled {
+  border: 1px solid $text-red;
+  height: 1.5rem;
+  border-radius: 0.2rem;
+  color: $text-red;
+  background-color: black;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+
+.show-button {
+  margin: auto 0.5rem auto auto;
+  padding: 0;
+  border-radius: 0.2rem;
+  border: none;
+  background-color: black;
+  cursor: pointer;
+  width: 30px;
+  height: 24px;
+}
+
+.planner-block-list {
+  margin-right: 1rem;
+  border-radius: 0.2rem;
+  background-color: black;
+  padding: 0.5rem;
+  min-width: 180px;
+  border: 1px solid $text-gold;
+
+  h5 {
+    margin: 0 auto 0.5rem auto;
+    color: $text-white;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li {
+      display: flex;
+      flex-direction: row;
+      padding: 0;
+
+      .li-key {
+        margin-right: 2rem;
+        color: $text-gold;
+      }
+
+      .li-val {
+        margin-left: auto;
+        color: $text-white;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .planner-block-list {
+    margin: 1rem auto 0.5rem auto;
+  }
+}

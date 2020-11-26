@@ -1,0 +1,46 @@
+.SaveButton-container {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  margin-left: auto;
+
+  .save-button-disabled {
+    border: 1px solid $text-green;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 0.2rem;
+    color: $text-green;
+    background-color: black;
+    text-transform: uppercase;
+    opacity: 0.5;
+    margin: 0 auto;
+  }
+
+  .save-button {
+    border: 1px solid $text-red;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 0.2rem;
+    color: $text-red;
+    background-color: black;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin: 0 auto;
+  }
+
+  .save-button:hover {
+    background-color: $bg-ui-hover;
+  }
+
+  .is-saved {
+    color: $text-green;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  .not-saved {
+    color: $text-red;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+}

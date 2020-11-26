@@ -1,0 +1,596 @@
+[
+  {
+    "item_name": "Nagelring",
+    "item_image": "https://pd2-tools-planner.s3.amazonaws.com/item_images/rings/rin1.png",
+    "item_type": "ring",
+    "item_properties": {
+      "item_base": "Ring",
+      "sub_type": null,
+      "class_specific": null,
+      "level_requirement": 60,
+      "item_tier": null,
+      "rarity_type": 3
+    },
+    "item_mods": {
+      "magic_damage_reduction": {
+        "min": 3,
+        "max": 3
+      },
+      "item_attackertakesdamage": {
+        "min": 3,
+        "max": 3
+      },
+      "tohit": {
+        "min": 50,
+        "max": 75
+      },
+      "item_magicbonus": {
+        "min": 15,
+        "max": 40
+      },
+      "item_manaafterkill": {
+        "min": 1,
+        "max": 1
+      }
+    },
+    "property_strings": [
+      {
+        "order": "115",
+        "string": "+50-75 to Attack Rating"
+      },
+      {
+        "order": "21",
+        "string": "Magic Damage Taken Reduced by 3"
+      },
+      {
+        "order": "16",
+        "string": "+1 to Mana after each Kill"
+      },
+      {
+        "order": "13",
+        "string": "Attacker Takes Damage of 3"
+      },
+      {
+        "order": "8",
+        "string": "15-40% Better Chance of Getting Magic Items"
+      }
+    ]
+  },
+  {
+    "item_name": "Manald Heal",
+    "item_image": "https://pd2-tools-planner.s3.amazonaws.com/item_images/rings/rin1.png",
+    "item_type": "ring",
+    "item_properties": {
+      "item_base": "Ring",
+      "sub_type": null,
+      "class_specific": null,
+      "level_requirement": 60,
+      "item_tier": null,
+      "rarity_type": 3
+    },
+    "item_mods": {
+      "manadrainmindam": {
+        "min": 4,
+        "max": 7
+      },
+      "hpregen": {
+        "min": 5,
+        "max": 8
+      },
+      "maxhp": {
+        "min": 20,
+        "max": 20
+      },
+      "manarecoverybonus": {
+        "min": 20,
+        "max": 20
+      }
+    },
+    "property_strings": [
+      {
+        "order": "89",
+        "string": "4-7% Mana stolen per hit"
+      },
+      {
+        "order": "59",
+        "string": "+20 to Life"
+      },
+      {
+        "order": "56",
+        "string": "Replenish Life +5-8"
+      },
+      {
+        "order": "52",
+        "string": "Regenerate Mana 20%"
+      }
+    ]
+  },
+  {
+    "item_name": "The Stone of Jordan",
+    "item_image": "https://pd2-tools-planner.s3.amazonaws.com/item_images/rings/rin1.png",
+    "item_type": "ring",
+    "item_properties": {
+      "item_base": "Ring",
+      "sub_type": null,
+      "class_specific": null,
+      "level_requirement": 60,
+      "item_tier": null,
+      "rarity_type": 3
+    },
+    "item_mods": {
+      "maxmana": {
+        "min": 15,
+        "max": 30
+      },
+      "item_maxmana_percent": {
+        "min": 15,
+        "max": 20
+      },
+      "lightning_damage": {
+        "min": 1,
+        "max": 120
+      },
+      "item_allskills": {
+        "min": 1,
+        "max": 1
+      }
+    },
+    "property_strings": [
+      {
+        "order": "160",
+        "string": "+1-120 Lightning Damage"
+      },
+      {
+        "order": "158",
+        "string": "+1 to All Skills"
+      },
+      {
+        "order": "55",
+        "string": "+15-30 to Mana"
+      },
+      {
+        "order": "54",
+        "string": "Increase Maximum Mana 15-20%"
+      }
+    ]
+  },
+  {
+    "item_name": "Constricting Ring",
+    "item_image": "https://pd2-tools-planner.s3.amazonaws.com/item_images/rings/rin1.png",
+    "item_type": "ring",
+    "item_properties": {
+      "item_base": "Ring",
+      "sub_type": null,
+      "class_specific": null,
+      "level_requirement": 60,
+      "item_tier": null,
+      "rarity_type": 3
+    },
+    "item_mods": {
+      "all_resist": {
+        "min": 100,
+        "max": 100
+      },
+      "hpregen": {
+        "min": -30,
+        "max": -30
+      },
+      "item_magicbonus": {
+        "min": 100,
+        "max": 100
+      },
+      "all_resist_max": {
+        "min": 15,
+        "max": 15
+      }
+    },
+    "property_strings": [
+      {
+        "order": "160",
+        "string": "All Resistances +100"
+      },
+      {
+        "order": "160",
+        "string": "+15 to All Maximum Resistances"
+      },
+      {
+        "order": "56",
+        "string": "Replenish Life +-30"
+      },
+      {
+        "order": "8",
+        "string": "100% Better Chance of Getting Magic Items"
+      }
+    ]
+  },
+  {
+    "item_name": "Bul-Kathos' Wedding Band",
+    "item_image": "https://pd2-tools-planner.s3.amazonaws.com/item_images/rings/rin1.png",
+    "item_type": "ring",
+    "item_properties": {
+      "item_base": "Ring",
+      "sub_type": null,
+      "class_specific": null,
+      "level_requirement": 60,
+      "item_tier": null,
+      "rarity_type": 3
+    },
+    "item_mods": {
+      "item_hp_perlevel": {
+        "min": 0.5,
+        "max": 0.5
+      },
+      "item_allskills": {
+        "min": 1,
+        "max": 1
+      },
+      "lifedrainmindam": {
+        "min": 3,
+        "max": 5
+      },
+      "maxstamina": {
+        "min": 50,
+        "max": 50
+      }
+    },
+    "property_strings": [
+      {
+        "order": "158",
+        "string": "+1 to All Skills"
+      },
+      {
+        "order": "88",
+        "string": "3-5% Life stolen per hit"
+      },
+      {
+        "order": "57",
+        "string": "+0.5-50 to Life (+0.5 Based On Character level)"
+      },
+      {
+        "order": "51",
+        "string": "+50 Maximum Stamina"
+      }
+    ]
+  },
+  {
+    "item_name": "Dwarf Star",
+    "item_image": "https://pd2-tools-planner.s3.amazonaws.com/item_images/rings/rin1.png",
+    "item_type": "ring",
+    "item_properties": {
+      "item_base": "Ring",
+      "sub_type": null,
+      "class_specific": null,
+      "level_requirement": 60,
+      "item_tier": null,
+      "rarity_type": 3
+    },
+    "item_mods": {
+      "item_goldbonus": {
+        "min": 100,
+        "max": 100
+      },
+      "maxstamina": {
+        "min": 35,
+        "max": 50
+      },
+      "toblock": {
+        "min": 3,
+        "max": 5
+      },
+      "maxhp": {
+        "min": 35,
+        "max": 50
+      },
+      "magic_damage_reduction": {
+        "min": 12,
+        "max": 15
+      },
+      "item_absorbfire_percent": {
+        "min": 4,
+        "max": 8
+      }
+    },
+    "property_strings": [
+      {
+        "order": "134",
+        "string": "3-5% Increased Chance of Blocking"
+      },
+      {
+        "order": "59",
+        "string": "+35-50 to Life"
+      },
+      {
+        "order": "51",
+        "string": "+35-50 Maximum Stamina"
+      },
+      {
+        "order": "23",
+        "string": "Fire Absorb 4-8%"
+      },
+      {
+        "order": "21",
+        "string": "Magic Damage Taken Reduced by 12-15"
+      },
+      {
+        "order": "10",
+        "string": "100% Extra Gold from Monsters"
+      }
+    ]
+  },
+  {
+    "item_name": "Raven Frost",
+    "item_image": "https://pd2-tools-planner.s3.amazonaws.com/item_images/rings/rin1.png",
+    "item_type": "ring",
+    "item_properties": {
+      "item_base": "Ring",
+      "sub_type": null,
+      "class_specific": null,
+      "level_requirement": 60,
+      "item_tier": null,
+      "rarity_type": 3
+    },
+    "item_mods": {
+      "item_cannotbefrozen": {
+        "min": 1,
+        "max": 1
+      },
+      "cold_damage": {
+        "min": 15,
+        "max": 45
+      },
+      "item_absorbcold_percent": {
+        "min": 20,
+        "max": 20
+      },
+      "maxmana": {
+        "min": 40,
+        "max": 40
+      },
+      "dexterity": {
+        "min": 15,
+        "max": 20
+      },
+      "tohit": {
+        "min": 150,
+        "max": 250
+      }
+    },
+    "property_strings": [
+      {
+        "order": "160",
+        "string": "+15-45 Cold Damage"
+      },
+      {
+        "order": "115",
+        "string": "+150-250 to Attack Rating"
+      },
+      {
+        "order": "65",
+        "string": "+15-20 to Dexterity"
+      },
+      {
+        "order": "55",
+        "string": "+40 to Mana"
+      },
+      {
+        "order": "25",
+        "string": "Cold Absorb 20%"
+      },
+      {
+        "order": "20",
+        "string": "Cannot Be Frozen"
+      }
+    ]
+  },
+  {
+    "item_name": "Nature's Peace",
+    "item_image": "https://pd2-tools-planner.s3.amazonaws.com/item_images/rings/rin1.png",
+    "item_type": "ring",
+    "item_properties": {
+      "item_base": "Ring",
+      "sub_type": null,
+      "class_specific": null,
+      "level_requirement": 60,
+      "item_tier": null,
+      "rarity_type": 3
+    },
+    "item_mods": {
+      "item_preventheal": {
+        "min": 1,
+        "max": 1
+      },
+      "item_restinpeace": {
+        "min": 1,
+        "max": 1
+      },
+      "normal_damage_reduction": {
+        "min": 7,
+        "max": 11
+      },
+      "maxlightresist": {
+        "min": 1,
+        "max": 3
+      },
+      "oak_sage": {
+        "min": 1,
+        "max": 3
+      },
+      "maxcoldresist": {
+        "min": 1,
+        "max": 3
+      },
+      "maxfireresist": {
+        "min": 1,
+        "max": 3
+      },
+      "maxpoisonresist": {
+        "min": 1,
+        "max": 3
+      }
+    },
+    "property_strings": [
+      {
+        "order": "81",
+        "string": "Prevent Monster Heal"
+      },
+      {
+        "order": "81",
+        "string": "Slain Monsters Rest in Peace"
+      },
+      {
+        "order": "81",
+        "string": "+1-3 to Oak Sage"
+      },
+      {
+        "order": "45",
+        "string": "+1-3% to Maximum Poison Resist"
+      },
+      {
+        "order": "44",
+        "string": "+1-3% to Maximum Cold Resist"
+      },
+      {
+        "order": "43",
+        "string": "+1-3% to Maximum Lightning Resist"
+      },
+      {
+        "order": "42",
+        "string": "+1-3% to Maximum Fire Resist"
+      },
+      {
+        "order": "22",
+        "string": "Physical Damage Taken Reduced by 7-11"
+      }
+    ]
+  },
+  {
+    "item_name": "Wisp Projector",
+    "item_image": "https://pd2-tools-planner.s3.amazonaws.com/item_images/rings/rin1.png",
+    "item_type": "ring",
+    "item_properties": {
+      "item_base": "Ring",
+      "sub_type": null,
+      "class_specific": null,
+      "level_requirement": 60,
+      "item_tier": null,
+      "rarity_type": 3
+    },
+    "item_mods": {
+      "item_absorblight_percent": {
+        "min": 4,
+        "max": 6
+      },
+      "item_allskills": {
+        "min": 1,
+        "max": 1
+      },
+      "item_magicbonus": {
+        "min": 8,
+        "max": 12
+      },
+      "heart_of_wolverine": {
+        "min": 1,
+        "max": 3
+      },
+      "spirit_of_barbs": {
+        "min": 1,
+        "max": 3
+      }
+    },
+    "property_strings": [
+      {
+        "order": "158",
+        "string": "+1 to All Skills"
+      },
+      {
+        "order": "81",
+        "string": "+1-3 to Heart of Wolverine"
+      },
+      {
+        "order": "81",
+        "string": "+1-3 to Spirit of Barbs"
+      },
+      {
+        "order": "24",
+        "string": "Lightning Absorb 4-6%"
+      },
+      {
+        "order": "8",
+        "string": "8-12% Better Chance of Getting Magic Items"
+      }
+    ]
+  },
+  {
+    "item_name": "Carrion Wind",
+    "item_image": "https://pd2-tools-planner.s3.amazonaws.com/item_images/rings/rin1.png",
+    "item_type": "ring",
+    "item_properties": {
+      "item_base": "Ring",
+      "sub_type": null,
+      "class_specific": null,
+      "level_requirement": 60,
+      "item_tier": null,
+      "rarity_type": 3
+    },
+    "item_mods": {
+      "armorclass_vs_missile": {
+        "min": 100,
+        "max": 160
+      },
+      "lifedrainmindam": {
+        "min": 4,
+        "max": 6
+      },
+      "poisonresist": {
+        "min": 40,
+        "max": 55
+      },
+      "item_attackertakesdamage": {
+        "min": 460,
+        "max": 580
+      },
+      "item_charged_skill": {
+        "min": 35,
+        "max": 21
+      },
+      "item_skillonhit": {
+        "min": 8,
+        "max": 18
+      },
+      "item_fastermovevelocity": {
+        "min": 5,
+        "max": 10
+      }
+    },
+    "property_strings": [
+      {
+        "order": "160",
+        "string": "8% Chance to cast level 18 Twister on striking"
+      },
+      {
+        "order": "148",
+        "string": "+5-10% Faster Run/Walk"
+      },
+      {
+        "order": "88",
+        "string": "4-6% Life stolen per hit"
+      },
+      {
+        "order": "69",
+        "string": "+100-160 Defense vs. Missile"
+      },
+      {
+        "order": "34",
+        "string": "Poison Resist +40-55%"
+      },
+      {
+        "order": "13",
+        "string": "Attacker Takes Damage of 460-580"
+      },
+      {
+        "order": "1",
+        "string": "Level 21 Plague Poppy (35 Charges)"
+      }
+    ]
+  }
+]

@@ -1,0 +1,71 @@
+.QuestControl-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid $text-gold;
+  border-radius: 0.2rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+  background-color: $bg-ui-black;
+  color: $text-gold;
+
+  .QuestControl-content {
+    padding: 0.5rem;
+    background-color: black;
+
+    .CheckAll {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      label {
+        display: inline-block;
+        margin-right: 0.8rem;
+      }
+    }
+
+    .QuestControl-row {
+      display: flex;
+      flex-direction: row;
+
+      .DifficultyQuests-container:nth-of-type(3) {
+        margin-right: 0;
+      }
+
+      .DifficultyQuests-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-right: 0.5rem;
+
+        .Difficulty-label {
+          font-weight: bold;
+          color: $text-white;
+        }
+
+        .Quests-container {
+          display: flex;
+          flex-direction: column;
+
+          span {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            label {
+              display: inline-block;
+              margin-right: auto;
+            }
+
+            input[type="checkbox"] {
+              margin-left: auto;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .QuestControl-container {
+    margin: 0.5rem auto;
+  }
+}

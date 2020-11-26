@@ -1,0 +1,37 @@
+.DifficultyControl-container {
+  border: 1px solid $text-gold;
+  border-radius: 0.2rem;
+  margin-right: 1rem;
+  cursor: pointer;
+  background-color: $bg-ui-black;
+  color: $text-gold;
+
+  .DifficultyControl-content {
+    width: 120px;
+    padding: 0.5rem;
+    background-color: black;
+
+    .DifficultyControl-row {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      align-items: center;
+
+      label {
+        display: inline-block;
+        margin-right: auto;
+      }
+
+      input[type="checkbox"] {
+        display: inline-block;
+        margin-left: auto;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .DifficultyControl-container {
+    margin: 0.5rem auto;
+  }
+}

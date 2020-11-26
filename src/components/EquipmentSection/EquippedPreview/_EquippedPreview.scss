@@ -1,0 +1,30 @@
+.EquippedPreview-container {
+  position: absolute;
+  border: 1px solid $text-gold;
+  right: 6rem;
+  background-color: black;
+  z-index: 10;
+  height: 400px;
+  min-width: 280px;
+  color: $text-white;
+
+  .ItemPreview {
+    display: flex;
+    flex-direction: column;
+    min-width: 180px;
+
+    span {
+      text-align: center;
+    }
+
+    .rarity-1,
+    .rarity-2,
+    .rarity-3 {
+      font-weight: bold;
+    }
+
+    .item-property-strings {
+      color: $text-blue;
+    }
+  }
+}

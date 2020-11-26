@@ -1,0 +1,56 @@
+.PlannerEditorPage-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 91vh;
+  background-color: $bg-gen-ui;
+
+  h4 {
+    margin-block-start: 0.5rem;
+    margin-block-end: 0.5rem;
+    color: $text-white;
+  }
+
+  .PlannerEditorPage-col {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    background-color: black;
+
+    h3 {
+      margin: 0.5rem 0.5rem 1rem 0.5rem;
+      color: $text-white;
+    }
+
+    .PlannerEditorPage-controls-row {
+      display: flex;
+      flex-direction: row;
+      margin: auto 0.5rem;
+
+      .planner-character-info {
+        display: flex;
+        flex-direction: column;
+        color: $text-white;
+        margin: auto 1rem 0.5rem 0;
+        width: 130px;
+
+        span {
+          font-size: 0.8rem;
+        }
+
+        span:nth-of-type(1) {
+          font-size: 1rem;
+          font-weight: bold;
+        }
+      }
+
+      .PlannerEditor-tab {
+        height: 1.5rem;
+        border-radius: 0.2rem 0.2rem 0 0;
+        color: $text-white;
+        background-color: $bg-site-ui;
+        cursor: pointer;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

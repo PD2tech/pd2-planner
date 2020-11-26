@@ -1,0 +1,21 @@
+.DamageDetails-container {
+  ul {
+    list-style: none;
+    padding: 0;
+    li {
+      display: flex;
+      flex-direction: row;
+      padding: 0;
+
+      .li-key {
+        margin-right: 2rem;
+        color: $text-gold;
+      }
+
+      .li-val {
+        margin-left: auto;
+        color: $text-white;
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+.CharacterEquipment-character-1,
+.CharacterEquipment-character-2,
+.CharacterEquipment-character-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  .equipment-1 {
+    height: 5rem;
+    width: 5rem;
+    background-color: black;
+    border: 1px solid $text-gold;
+    margin: 0.2rem;
+  }
+  .equipment-2 {
+    height: 2.25rem;
+    width: 2.25rem;
+    background-color: black;
+    border: 1px solid $text-gold;
+    margin: 0.2rem;
+  }
+  .equipment-4 {
+    height: 7.8rem;
+    width: 5rem;
+    background-color: black;
+    border: 1px solid $text-gold;
+    margin: 0.2rem;
+  }
+  .equipment-3 {
+    height: 10.5rem;
+    width: 5.25rem;
+    background-color: black;
+    border: 1px solid $text-gold;
+    margin: 0.2rem;
+  }
+  .equipment-5 {
+    height: 2.25rem;
+    width: 5rem;
+    background-color: black;
+    border: 1px solid $text-gold;
+    margin: 0.2rem;
+  }
+
+  .equipment-1,
+  .equipment-2,
+  .equipment-3,
+  .equipment-4,
+  .equipment-5 {
+    img {
+      height: auto;
+      width: 100%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}

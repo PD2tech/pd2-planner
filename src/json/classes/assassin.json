@@ -1,0 +1,382 @@
+{
+  "character_class": "Assassin",
+  "character_sprite": "https://pd2-tools-planner.s3.amazonaws.com/class_sprites/Assassin.gif",
+  "stats": {
+    "base_stats": {
+      "life": {
+        "base_amount": 50,
+        "per_level": 2.5,
+        "per_vitality": 3
+      },
+      "mana": {
+        "base_amount": 15,
+        "per_level": 1.5,
+        "per_energy": 1.5
+      },
+      "stamina": {
+        "base_amount": 184,
+        "per_level": 1,
+        "per_vitality": 1
+      },
+      "character_level": 1,
+      "strength": 20,
+      "dexterity": 25,
+      "vitality": 20,
+      "energy": 15,
+      "attack_rating": 100,
+      "defense": 6
+    },
+    "level_mods": {
+      "increased_level": 0,
+      "skill_points": 0,
+      "attribute_points": 0,
+      "strength_allocated": 0,
+      "dexterity_allocated": 0,
+      "vitality_allocated": 0,
+      "energy_allocated": 0
+    },
+    "difficulty_quests": {
+      "difficulty": 1,
+      "skill_quests": {
+        "norm": {
+          "den": 0,
+          "rada": 0,
+          "izzy": 0
+        },
+        "nm": {
+          "den": 0,
+          "rada": 0,
+          "izzy": 0
+        },
+        "hell": {
+          "den": 0,
+          "rada": 0,
+          "izzy": 0
+        }
+      },
+      "stat_quests": {
+        "norm": {
+          "anya": 0,
+          "bird": 0,
+          "esen": 0
+        },
+        "nm": {
+          "anya": 0,
+          "bird": 0,
+          "esen": 0
+        },
+        "hell": {
+          "anya": 0,
+          "bird": 0,
+          "esen": 0
+        }
+      }
+    }
+  },
+  "equipment": {
+    "equipped": [null, null, null, null, null, null, null, null, null, null],
+    "selected_slot": null
+  },
+  "skills": {
+    "character_class": "Assassin",
+    "skill_points_allocated": 0,
+    "active_skills": {
+      "skill_1": null,
+      "skill_2": null
+    },
+    "known_skills": [],
+    "skill_trees": [
+      {
+        "tree_id": 1,
+        "tree_name": "Martial Arts",
+        "skill_points_allocated": 0,
+        "skills": [
+          {
+            "skill_name": "Tiger Strike",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/assassin/0040.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 1,
+            "col": 2
+          },
+          {
+            "skill_name": "Dragon Talon",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/assassin/0042.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 1,
+            "col": 3
+          },
+          {
+            "skill_name": "Fists of Fire",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/assassin/0044.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 2,
+            "col": 1
+          },
+          {
+            "skill_name": "Dragon Claw",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/assassin/0046.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 2,
+            "col": 3     
+          },
+          {
+            "skill_name": "Cobra Strike",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/assassin/0050.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 3,
+            "col": 2
+          },
+          {
+            "skill_name": "Claws of Thunder",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/assassin/0058.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 4,
+            "col": 1
+          },
+          {
+            "skill_name": "Dragon Tail",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/assassin/0048.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 4,
+            "col": 3
+          },
+          {
+            "skill_name": "Blades of Ice",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/assassin/0052.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 5,
+            "col": 1
+          },
+          {
+            "skill_name": "Dragon Flight",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/assassin/0054.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 5,
+            "col": 3
+          },
+          {
+            "skill_name": "Phoenix Strike",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/assassin/0056.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 6,
+            "col": 2
+          }
+        ]
+      },
+      {
+        "tree_id": 2,
+        "tree_name": "Shadow Disciplines",
+        "skill_points_allocated": 0,
+        "skills": [
+          {
+            "skill_name": "Claw Mastery",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/assassin/0020.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 1,
+            "col": 2
+          },
+          {
+            "skill_name": "Psychic Hammer",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/assassin/0022.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 1,
+            "col": 3
+          },
+          {
+            "skill_name": "Burst of Speed",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/assassin/0036.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 2,
+            "col": 1
+          },
+          {
+            "skill_name": "Weapon Block",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/assassin/0026.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 3,
+            "col": 2
+          },
+          {
+            "skill_name": "Cloak of Shadows",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/assassin/0024.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 3,
+            "col": 3
+          },
+          {
+            "skill_name": "Fade",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/assassin/0030.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 4,
+            "col": 1
+          },
+          {
+            "skill_name": "Shadow Warrior",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/assassin/0032.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 4,
+            "col": 2
+          },
+          {
+            "skill_name": "Mind Blast",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/assassin/0034.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 4,
+            "col": 3
+          },
+          {
+            "skill_name": "Venom",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/assassin/0028.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 6,
+            "col": 1
+          },
+          {
+            "skill_name": "Shadow Master",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/assassin/0032.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 6,
+            "col": 2
+          }
+        ]
+      },
+      {
+        "tree_id": 3,
+        "tree_name": "Traps",
+        "skill_points_allocated": 0,
+        "skills": [
+          {
+            "skill_name": "Fire Blast",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/assassin/0000.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 1,
+            "col": 2
+          },
+          {
+            "skill_name": "Shock Web",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/assassin/0002.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 2,
+            "col": 1
+          },
+          {
+            "skill_name": "Blade Sentinel",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/assassin/0004.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 2,
+            "col": 3
+          },
+          {
+            "skill_name": "Charged Bolt Sentry",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/assassin/0006.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 3,
+            "col": 1
+          },
+          {
+            "skill_name": "Wake of Fire",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/assassin/0008.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 3,
+            "col": 2
+          },
+          {
+            "skill_name": "Blade Fury",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/assassin/0010.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 4,
+            "col": 3
+          },
+          {
+            "skill_name": "Wake of Inferno",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/assassin/0014.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 5,
+            "col": 2
+          },
+          {
+            "skill_name": "Blade Shield",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/assassin/0018.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 5,
+            "col": 3
+          },
+          {
+            "skill_name": "Chain Lightning Sentry",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/assassin/0012.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 6,
+            "col": 1
+          },
+          {
+            "skill_name": "Death Sentry",
+            "skill_icon": "https://pd2-tools-planner.s3.amazonaws.com/skill_icons/assassin/0016.jpg",
+            "skill_level": 0,
+            "skill_description": "",
+            "skill_properties": {},
+            "row": 6,
+            "col": 2
+          }
+        ]
+      }
+    ]
+  }
+}

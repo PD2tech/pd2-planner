@@ -1,0 +1,7 @@
+@import "./ActiveSkillDisplay/ActiveSkillDisplay";
+@import "./ActiveSkillInput/ActiveSkillInput";
+
+.ActiveSkills-container {
+  display: flex;
+  flex-direction: column;
+}

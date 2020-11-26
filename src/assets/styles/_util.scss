@@ -1,0 +1,33 @@
+.icon-button {
+  width: 4rem;
+  height: 4rem;
+  padding: 0;
+  background-color: $bg-site-ui;
+  cursor: pointer;
+
+  img {
+    display: block;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+  }
+
+  span {
+    font-size: 10px;
+    color: white;
+  }
+}
+
+// text colors
+// normal
+.rarity-1 {
+  color: $text-white;
+}
+// magic
+.rarity-2 {
+  color: $text-blue;
+}
+// unique
+.rarity-3 {
+  color: $text-gold;
+}

@@ -1,0 +1,25 @@
+.BasicStats-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+
+  .BasicStats-row-1,
+  .BasicStats-row-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .BasicStats-row-1 {
+    background-color: rgb(41, 71, 65);
+    border-radius: 0.2rem 0.2rem 0 0;
+
+    h4 {
+      margin-left: 0.5rem;
+    }
+  }
+
+  .BasicStats-row-2 {
+    padding: 0.5rem;
+  }
+}
